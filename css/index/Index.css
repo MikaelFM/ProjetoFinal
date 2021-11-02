@@ -1,7 +1,7 @@
 @media (min-width: 725px) and (max-width: 1100px){
 
     .chamada{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 225px;
         display: block;
     }
@@ -190,7 +190,7 @@
 
 @media (min-width: 520px) and (max-width: 725px){
     .chamada{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
         display: block;
     }
@@ -273,7 +273,7 @@
     /*-----------------------------------*/
 
     .chamada2{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
         display: block;
     }
@@ -365,7 +365,7 @@
     /*-----------------------------------*/
 
     .chamada3{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
         display: block;
     }
@@ -457,7 +457,7 @@
     /*-----------------------------------*/
 
     .chamada4{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
         display: block;
     }
@@ -545,11 +545,10 @@
         line-height: 20px;
         color: white;
     }
-
     /*-----------------------------------*/
 
     .chamada5{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
         display: block;
     }
@@ -672,7 +671,7 @@
 
 @media (min-width: 1000px){
     .chamada{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
         display: block;
     }
@@ -754,7 +753,7 @@
     /*-------------------------------------*/
 
     .chamada2{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
         display: block;
     }
@@ -843,7 +842,7 @@
     /*-------------------------------------*/
 
     .chamada3{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
         display: block;
     }
@@ -932,7 +931,7 @@
     /*-------------------------------------*/
 
     .chamada4{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
         display: block;
     }
@@ -1021,7 +1020,7 @@
     /*-------------------------------------*/
 
     .chamada5{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
         display: block;
     }
@@ -1144,7 +1143,7 @@
 
 @media (max-width: 520px){
     .chamada{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 150px;
         display: block;
     }
@@ -1216,7 +1215,7 @@
     /*-------------------------------------*/
 
     .chamada2{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 150px;
         display: block;
     }
@@ -1295,7 +1294,7 @@
     /*-------------------------------------*/
 
     .chamada3{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 150px;
         display: block;
     }
@@ -1374,7 +1373,7 @@
     /*-------------------------------------*/
 
     .chamada4{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 150px;
         display: block;
     }
@@ -1453,7 +1452,7 @@
     /*-------------------------------------*/
 
     .chamada5{
-        background-image: url('img/Background-opacity10-avengers.png');
+        background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 150px;
         display: block;
     }
@@ -1568,7 +1567,7 @@
 
 /*
 .back{
-    background-image: url(/img/Background-opacity10-avengers.png);
+    background-image: url(/img/index/Background-opacity10-avengers.png);
     padding-bottom: 200px;
     display: block;
     width: 100vw;
