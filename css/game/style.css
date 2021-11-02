@@ -309,7 +309,7 @@ li button:active {
         
     #esq, #esqbot {
         width: 27vw; /*Largura do nosso retângulo*/
-        height: 10%; /*Altura de nosso retângulo*/
+        height: 7%; /*Altura de nosso retângulo*/
     }
 
     #esqbot {
