@@ -223,6 +223,7 @@ function Run(Arr, camPrin, TEC, poHe, her, eveLis, quanTi, Rod, liE, ls, lsb, Fi
             quanTi[o].style.top = `${Number(quanTi[o].style.top.slice(0, quanTi[o].style.top.length -2)) - 5}vh`;
         } else {
             quanTi[o].style.top = "-10vh";
+            quanTi[o].style.left = "-10vh";
             quanTi.splice(o, 1);
             if (quanTi[o]) {
                 document.body.removeChild(quanTi[o]);
