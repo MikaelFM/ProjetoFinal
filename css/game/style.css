@@ -287,7 +287,7 @@ li button:active {
     
 }
 
-@media (min-width: 340px) and (max-width: 480px) {
+@media (min-width: 385px) and (max-width: 480px) {
     #Heroi {
         width: 60px; /*Largura do nosso herói*/
         height: 60px; /*Altura do nosso herói*/
@@ -319,6 +319,7 @@ li button:active {
 
     
     p {
+	font-size: 15px; /*Tamanho da nossa fonte para 15px*/
         top: -5px; /*Posiciona a altura de nosso parágrafo*/
         left: 15%; /*Distância da esquerda de nosso retêngulo*/
     }
