@@ -23,19 +23,19 @@ body {
 #Heroi {
     animation: mudaback 2s ease-in-out infinite alternate; /*Diz que teremos uma animação de nome mudaback que durará 2 segundos infinitamente e alternadamente (frente pra trás e trás pra frente*/
     position: absolute; /*Ajusta para que a posição do herói seja absoluta, ou seja, se move em relação ao corpo*/
-    background-image: url('../img/game/thor.png'); /*Diz que a imagem de fundo de nosso herói será thor.png*/
+    background-image: url('../../img/game/thor.png'); /*Diz que a imagem de fundo de nosso herói será thor.png*/
     transform-origin: bottom left; /*A origem de cada movimentação será embaixo a esquerda*/
     transition: transform 0.3s; /*Deixa mais suave a transição em cada movimento que ele faz, fazendo com que ela dure 0.3 segundos*/
 }
 
 .projetil {
     position: absolute; /*Posição absoulta (se move sem levar em conta outros elementos*/
-    background-image: url('../img/game/raio.png'); /*Ajusta o background para raio.png*/
+    background-image: url('../../img/game/raio.png'); /*Ajusta o background para raio.png*/
 }
 
 .ordaIni {
     position: absolute; /*Posição absoulta (se move sem levar em conta outros elementos*/
-    background-image: url('../img/game/Ultron (1).png'); /*Ajusta o background para Ultron (1).png*/
+    background-image: url('../../img/game/Ultron (1).png'); /*Ajusta o background para Ultron (1).png*/
 }
 
 #esq, #esqbot {
@@ -95,11 +95,11 @@ p {
 
 @keyframes mudaback { /*Cria uma animação chamada 'mudaback' (de muda-background)*/
     from { 
-        background-image: url('../img/game/thor.png'); /*Vai deste background para o outro*/
+        background-image: url('../../img/game/thor.png'); /*Vai deste background para o outro*/
     }
 
     to {
-        background-image: url('../img/game/thor1.png'); /*Vai deste background para o outro*/
+        background-image: url('../../img/game/thor1.png'); /*Vai deste background para o outro*/
     }
 }
 
