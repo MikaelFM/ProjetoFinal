@@ -1,15 +1,27 @@
 @import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=PT+Sans+Caption&family=Roboto&family=Sarabun:wght@500&display=swap');
 
-h1 {
-    font-family: 'Lovelo', sans-serif;
-    text-shadow: 3px 5px 3px black;
-    font-weight: bold;
+
+.imgum{
+    width: 250px;
+    height: 370px;
 }
 
-p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+.img2{
+    width: 250px;
+    height: 370px;
+}
+
+.img3{
+    width: 250px;
+    height: 370px;
+}
+
+.img4{
+    width: 250px;
+    height: 370px;
 }
 
 @media (min-width: 725px) and (max-width: 1100px){
@@ -684,7 +696,7 @@ p{
     /*-----------------------------------*/
 
 
-@media (min-width: 1000px){
+@media (min-width: 1100px){
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
@@ -730,7 +742,8 @@ p{
         color: white;
         font-size: 40px;
         text-align: center;
-        margin-left: 30vw;
+        margin-left: 35vw;
+        line-height: 15px;
     }
     
     .figure1{
@@ -746,6 +759,15 @@ p{
         margin-top: -30px;
     }
 
+    .imgum:hover{
+        margin:0 auto;
+        float: right;
+        margin-right: 10vw;
+        transform: scale(1.65);
+        transition: 0.3s;
+        margin-top: -30px;
+    }
+
     .sinopse{
         color: white;
         text-align: center;
@@ -756,7 +778,7 @@ p{
 
     .text_sinopse{
         text-align: justify;
-        width: 75%;
+        width: 85%;
         margin:0 auto;
         line-height: 30px;
         color: white;
@@ -812,14 +834,16 @@ p{
         color: white;
         font-size: 40px;
         text-align: center;
-        margin-left: 30vw;
+        margin-left: 35vw;
+        line-height: 15px;
     }
     
     .sub_avengers2{
         color: white;
         font-size: 40px;
         text-align: center;
-        margin-left: 30vw;
+        margin-left: 35vw;
+        line-height: 15px;
     }
 
     .figure2{
@@ -835,6 +859,15 @@ p{
         margin-top: -125px;
     }
 
+    .img2:hover{
+        margin:0 auto;
+        float: right;
+        margin-right: 10vw;
+        transform: scale(1.65);
+        transition: 0.3s;
+        margin-top: -125px;
+    }
+
     .sinopse2{
         color: white;
         text-align: center;
@@ -845,7 +878,7 @@ p{
 
     .text_sinopse2{
         text-align: justify;
-        width: 75%;
+        width: 85%;
         margin:0 auto;
         line-height: 30px;
         color: white;
@@ -901,14 +934,16 @@ p{
         color: white;
         font-size: 40px;
         text-align: center;
-        margin-left: 30vw;
+        margin-left: 35vw;
+        line-height: 15px;
     }
     
     .sub_avengers3{
         color: white;
         font-size: 40px;
         text-align: center;
-        margin-left: 30vw;
+        margin-left: 35vw;
+        line-height: 15px;
     }
 
     .figure3{
@@ -924,6 +959,15 @@ p{
         margin-top: -170px;
     }
 
+    .img3:hover{
+        margin:0 auto;
+        float: right;
+        margin-right: 10vw;
+        transform: scale(1.65);
+        transition: 0.3s;
+        margin-top: -170px;
+    }
+
     .sinopse3{
         color: white;
         text-align: center;
@@ -934,7 +978,7 @@ p{
 
     .text_sinopse3{
         text-align: justify;
-        width: 75%;
+        width: 85%;
         margin:0 auto;
         line-height: 30px;
         color: white;
@@ -990,7 +1034,8 @@ p{
         color: white;
         font-size: 40px;
         text-align: center;
-        margin-left: 30vw;
+        margin-left: 35vw;
+        line-height: 15px;
     }
     
     .sub_avengers4{
@@ -998,6 +1043,7 @@ p{
         font-size: 40px;
         text-align: center;
         margin-left: 30vw;
+        line-height: 15px;
     }
 
     .figure4{
@@ -1010,7 +1056,16 @@ p{
         float: right;
         margin-right: 10vw;
         transform: scale(1.4);
-        margin-top: -125px;
+        margin-top: -135px;
+    }
+
+    .img4:hover{
+        margin:0 auto;
+        float: right;
+        margin-right: 10vw;
+        transform: scale(1.65);
+        transition: 0.3s;
+        margin-top: -135px;
     }
 
     .sinopse4{
@@ -1023,7 +1078,7 @@ p{
 
     .text_sinopse4{
         text-align: justify;
-        width: 75%;
+        width: 85%;
         margin:0 auto;
         line-height: 30px;
         color: white;
@@ -1580,7 +1635,59 @@ p{
     }
 }
 
+.avengers, .avengers2, .avengers3, .avengers4{
+    font-size: 56px;
+    line-height: 15px;
+}
 
+.sub_avengers, .sub_avengers2, .sub_avengers3, .sub_avengers4{
+    font-size: 44px;
+    padding-bottom: -30px;
+}
+
+.curiosidades, .curiosidades2, .curiosidades3, .curiosidades4, .curiosidades5{
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.text_curiosidades, .text_curiosidades2, .text_curiosidades3, .text_curiosidades4, .text_curiosidades5{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.avengers{
+    text-shadow: 2px 3px 1px red;
+}
+
+.avengers2, .sub_avengers2{
+    text-shadow: 2px 3px 1px blue;
+}
+
+.avengers3, .sub_avengers3{
+    text-shadow: 2px 3px 1px purple;
+}
+
+.avengers4, .sub_avengers4{
+    text-shadow: 2px 3px 1px rgb(10, 116, 10);
+}
+
+h1 {
+    font-family: 'Lovelo', sans-serif;
+    text-shadow: 3px 5px 3px black;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Lovelo', sans-serif;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
 
 /*
 .back{
