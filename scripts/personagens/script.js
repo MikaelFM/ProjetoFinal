@@ -38,5 +38,5 @@ const menu = function(){
 const fechar = function(){
     console.log('fechado')
     var menu = document.getElementById('menu').style;
-    menu.left = "-50vw"
+    menu.left = "-25vw"
 }

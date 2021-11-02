@@ -34,19 +34,19 @@ nav {
 #menu {
     border-top-right-radius: 2%;
     position: absolute;
-    left: -50vw;
-    width: 50vw;
+    left: -25vw;
+    width: 25vw;
     height: 100vh;
     background-color: black;
     transition: 1.8s;
     background-image: url('../../img/personagens/fundomenu.png');
 }
 #menu ul {
-    padding-top: 20vw;
+    padding-top: 15vh;
 }
 #menu ul li {
     list-style: none;
-    padding: 5vw;
+    padding: 5vh;
     width: 100%;
 }
 .link {
@@ -65,7 +65,7 @@ nav {
     position: relative;
     top: 0;
     right: 0;
-    padding: 4vw;
+    padding: 4vh;
     color: white;
     font-size: 4vh;
     z-index: 999;
