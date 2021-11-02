@@ -308,7 +308,7 @@ li button:active {
 
         
     #esq, #esqbot {
-        width: 32vw; /*Largura do nosso retângulo*/
+        width: 30vw; /*Largura do nosso retângulo*/
         height: 7%; /*Altura de nosso retângulo*/
     }
 
@@ -320,7 +320,7 @@ li button:active {
     
     p {
         top: -5px; /*Posiciona a altura de nosso parágrafo*/
-        left: 20%; /*Distância da esquerda de nosso retêngulo*/
+        left: 15%; /*Distância da esquerda de nosso retêngulo*/
     }
 
     .Inicio { 
