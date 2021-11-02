@@ -60,6 +60,7 @@
         float: right;
         margin-right: 3vw;
         transform: scale(1.1);
+	transition: 0.3s;
         margin-top: -135px;
         padding-bottom: 50px;
     }
@@ -69,7 +70,7 @@
         float: right;
         margin-right: 3vw;
         transform: scale(1.35);
-        transition: 0.3s;
+	transition: 0.3s;
         margin-top: -135px;
         padding-bottom: 50px;
     }
