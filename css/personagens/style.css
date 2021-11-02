@@ -55,7 +55,7 @@ nav {
     text-align: center;
     color: white;
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 1.5vw;
 }
 .link:hover {
     color: rgb(255, 32, 32)
@@ -73,3 +73,19 @@ nav {
 #close:hover {
     color: rgb(253, 36, 36)
 }
+@media screen and (max-width: 1470px) {
+    #menu {
+        width: 50vw;
+    }
+    .link {
+        font-size: 2.2vw;
+    }
+  }
+  @media screen and (max-width: 610px) {
+    #menu {
+        width: 100vw;
+    }
+    .link {
+        font-size: 5vw;
+    }
+  }
