@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/gama/icone.png"> <!--Define nosso ícone-->
+    <title>Avengers Invaders</title> <!--Tíyulo de nossa página-->
+    <link rel="stylesheet" type="text/css" href="../css/game/style.css"> <!--Chama o CSS-->
+    <script defer src="../scripts/game/script.js"></script> <!--Chama o JavaScript-->
+</head> 
+<body id="corpo"> <!--Body com id "Corpo"-->
+    <button class="Inicio" onclick="Comeca(IEF)">Início</button> <!--Botão de início do jogo-->
+    <ul id="botoes"> <!--Lista com botões--> 
+        <li><button id="esquerda" onmousedown="add('a', Teclas, eventosLista)" onmouseup="back(eventosLista)">&lt;</button></li><li><button onmousedown="add(' ', Teclas, eventosLista)" onmouseup="back(eventosLista)" id="Raios">Raio</button></li><li><button id="direita" onmousedown="add('d', Teclas, eventosLista)" onmouseup="back(eventosLista)">&gt;</button></li> <!--Botões mobile-->
+    </ul>
+</body>
+</html>
