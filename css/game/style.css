@@ -308,6 +308,7 @@ li button:active {
 
         
     #esq, #esqbot {
+	left: -7px; /*Espaço da esquerda da página*/
         width: 30vw; /*Largura do nosso retângulo*/
         height: 7%; /*Altura de nosso retângulo*/
     }
