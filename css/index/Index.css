@@ -1,3 +1,17 @@
+@import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+h1 {
+    font-family: 'Lovelo', sans-serif;
+    text-shadow: 3px 5px 3px black;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 @media (min-width: 725px) and (max-width: 1100px){
 
     .chamada{
@@ -1564,6 +1578,8 @@
         overflow-x: hidden;
     }
 }
+
+
 
 /*
 .back{
