@@ -103,7 +103,7 @@ document.addEventListener ('keyup', (event) => {
 });
 
 //Aqui temos um loop for que irá criar 150 estrelas do nosso espaço
-for (i = 0; i <= 130; i++) {
+for (i = 0; i <= 150; i++) {
     var star = document.createElement("div"); //Cria nossa estrela
     star.className = "Estrela"; //Muda o id de nossa estrela
 
