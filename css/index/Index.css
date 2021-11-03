@@ -458,87 +458,6 @@
         padding-bottom: 55px;
         margin-top:-25px;
     }
-
-    /*-----------------------------------*/
-
-
-
-
-
-
-    /*-----------------------------------*/
-
-    .logo_rodape_img{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:visited{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .yt_rodape{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .fb_rodape{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .insta_rodape{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .left_rodape{
-        float: left;
-    }
-
-    .rigth_rodape{
-        float: right;
-    }
-
-    /*------------------------------------*/
-
-    body{
-        margin: 0;
-        background-color: rgb(10, 10, 10);
-        overflow-x: hidden;
-    }
 }
 
     
@@ -947,80 +866,6 @@
         padding-bottom: 50px;
         padding-top: 40px;
         margin-top: -10px;
-    }
-
-    /*-----------------------------------*/
-
-    .logo_rodape_img{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:visited{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .yt_rodape{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .fb_rodape{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .insta_rodape{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .left_rodape{
-        float: left;
-    }
-
-    .rigth_rodape{
-        float: right;
-    }
-
-    /*------------------------------------*/
-
-    body{
-        margin: 0;
-        background-color: rgb(10, 10, 10);
-        overflow-x: hidden;
     }
 }
 
@@ -1459,80 +1304,6 @@
         padding-bottom: 75px;
         margin-top:-25px;
     }
-
-    /*-------------------------------------*/
-
-    .logo_rodape_img{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:visited{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .yt_rodape{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .fb_rodape{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .insta_rodape{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .left_rodape{
-        float: left;
-    }
-
-    .rigth_rodape{
-        float: right;
-    }
-
-    /*------------------------------------*/
-
-    body{
-        margin: 0;
-        background-color: rgb(10, 10, 10);
-        overflow-x: hidden;
-    }
 }
 
 
@@ -1692,18 +1463,19 @@
         background-color: blue;
         color: blue;
         display: block;
-        margin-top: -55px;
-        transform: skewY(5deg);
+        transform: skewY(3deg);
         opacity: 60%;
-        padding-bottom: 5px;
-        padding-top: 2px;
+        padding-bottom: 35px;
+        margin-bottom: -10px;
+        padding-top: 20px;
+        margin-top: -75px;
     }
 
     .ajuste_barra_diagonal2{
         background-color: rgb(10, 10, 10);
-        margin-top: -25px;
         transform: skewY(4deg);
-        padding-top: 20px;
+        padding-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     /*------------------------------------*/
@@ -1771,18 +1543,19 @@
         background-color: purple;
         color: purple;
         display: block;
-        margin-top: -55px;
-        transform: skewY(-4deg);
-        opacity: 70%;
-        padding-bottom: 5px;
-        padding-top: 2px;
+        transform: skewY(-3deg);
+        opacity: 60%;
+        padding-bottom: 35px;
+        margin-bottom: -10px;
+        padding-top: 20px;
+        margin-top: -75px;
     }
 
     .ajuste_barra_diagonal3{
         background-color: rgb(10, 10, 10);
-        margin-top: -25px;
-        transform: skewY(-5deg);
-        padding-top: 20px;
+        transform: skewY(-4deg);
+        padding-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     /*------------------------------------*/
@@ -1833,7 +1606,7 @@
 
     .curiosidades4{
         text-align: center;
-        color: green;
+        color: rgb(10, 116, 10);
         padding-top: 30px;
         font-size: 40px;
     }
@@ -1847,21 +1620,22 @@
     }
 
     .barra_diagonal4{
-        background-color: green;
-        color: green;
+        background-color: rgb(10, 116, 10);
+        color: rgb(10, 116, 10);
         display: block;
-        margin-top: -55px;
-        transform: skewY(5deg);
-        opacity: 70%;
-        padding-bottom: 5px;
-        padding-top: 2px;
+        transform: skewY(-3deg);
+        opacity: 60%;
+        padding-bottom: 35px;
+        margin-bottom: -10px;
+        padding-top: 20px;
+        margin-top: -75px;
     }
 
     .ajuste_barra_diagonal4{
         background-color: rgb(10, 10, 10);
-        margin-top: -25px;
-        transform: skewY(4deg);
-        padding-top: 20px;
+        transform: skewY(-4deg);
+        padding-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     /*------------------------------------*/
@@ -1912,7 +1686,7 @@
 
     .curiosidades5{
         text-align: center;
-        color: rgb(204, 18, 164);
+        color: rgb(172, 22, 172);
         padding-top: 30px;
         font-size: 40px;
     }
@@ -1926,95 +1700,22 @@
     }
 
     .barra_diagonal5{
-        background-color: rgb(204, 18, 164);
-        color: rgb(204, 18, 164);
+        background-color: rgb(172, 22, 172);
+        color: rgb(172, 22, 172);
         display: block;
-        margin-top: -55px;
         transform: skewY(-3deg);
-        opacity: 70%;
-        padding-bottom: 5px;
-        padding-top: 2px;
+        opacity: 60%;
+        padding-bottom: 35px;
+        margin-bottom: -10px;
+        padding-top: 20px;
+        margin-top: -75px;
     }
 
     .ajuste_barra_diagonal5{
         background-color: rgb(10, 10, 10);
-        margin-top: -25px;
-        transform: skewY(-2deg);
-        padding-top: 20px;
-    }
-
-    /*-------------------------------------*/
-
-    .logo_rodape_img{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:visited{
-        transform: scale(0.75);
-    }
-
-    .logo_rodape_img:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .yt_rodape{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .yt_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .fb_rodape{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .fb_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .insta_rodape{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:visited{
-        transform: scale(0.75);
-    }
-
-    .insta_rodape:hover{
-        transform: scale(0.9);
-        opacity: 75%;
-        transition: 0.4s;
-    }
-
-    .left_rodape{
-        float: left;
-    }
-
-    .rigth_rodape{
-        float: right;
-    }
-
-    /*------------------------------------*/
-
-    body{
-        margin: 0;
-        background-color: rgb(10, 10, 10);
-        overflow-x: hidden;
+        transform: skewY(-4deg);
+        padding-bottom: 50px;
+        margin-bottom: 20px;
     }
 }
 
@@ -2033,6 +1734,78 @@ h3{
 
 p{
     font-family: 'Montserrat', sans-serif;
+}
+
+.logo_rodape_img{
+    transform: scale(0.75);
+}
+
+.logo_rodape_img:visited{
+    transform: scale(0.75);
+}
+
+.logo_rodape_img:hover{
+    transform: scale(0.9);
+    opacity: 75%;
+    transition: 0.4s;
+}
+
+.yt_rodape{
+    transform: scale(0.75);
+}
+
+.yt_rodape:visited{
+    transform: scale(0.75);
+}
+
+.yt_rodape:hover{
+    transform: scale(0.9);
+    opacity: 75%;
+    transition: 0.4s;
+}
+
+.fb_rodape{
+    transform: scale(0.75);
+}
+
+.fb_rodape:visited{
+    transform: scale(0.75);
+}
+
+.fb_rodape:hover{
+    transform: scale(0.9);
+    opacity: 75%;
+    transition: 0.4s;
+}
+
+.insta_rodape{
+    transform: scale(0.75);
+}
+
+.insta_rodape:visited{
+    transform: scale(0.75);
+}
+
+.insta_rodape:hover{
+    transform: scale(0.9);
+    opacity: 75%;
+    transition: 0.4s;
+}
+
+.left_rodape{
+    float: left;
+}
+
+.rigth_rodape{
+    float: right;
+}
+
+/*------------------------------------*/
+
+body{
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+    overflow-x: hidden;
 }
 
 /*
