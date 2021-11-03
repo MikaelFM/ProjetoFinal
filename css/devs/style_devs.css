@@ -1,4 +1,94 @@
-h1 {
+@import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
+
+body {
+    overflow-x: hidden;
+}
+
+section#intro {
     position: relative;
-    top: 100px;
+    padding: 18vh 2vh 5vh 2vh;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to right bottom, rgb(0, 0, 255) 0.4%, rgb(214, 104, 104) 30%, rgb(122, 29, 29));
+}
+
+h1, h2, p {
+    position: relative;
+    left: 4vw;
+}
+
+h1, h2 {
+    font-family: 'Lovelo', sans-serif;
+    text-shadow: 1px 1px 5px rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+}
+
+h1 {
+    font-size: 5vh;
+}
+
+h2 {
+    font-size: 4vh;
+}
+
+span#spanUm {
+    font-size: 4.5vh;
+}
+
+span#spanUm, span#spanDois {
+    color:rgb(46, 0, 83);
+}
+
+p {
+    font-size: 2.6vh;
+    margin: 10px 100px auto auto;
+    text-indent: 5.5vw;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section#fotos {
+    background-color: black;
+    width: 100%;
+    padding: 3vw;
+}
+
+section#fotos h1 {
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(65, 44, 255);
+}
+
+div#fotos {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+div#Enzo, div#Mateus, div#Mikael {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vh;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(169, 34, 196);
+    color: rgb(255, 255, 255);   
+}
+
+div#Enzo span, div#Mateus span, div#Mikael span {
+    text-align: center;
+    position: relative;
+    top: 7vh; /*Ajustar na media*/
+    left: -2vw; /*Ajustar na media*/
+}
+
+img {
+    position: relative;
+    top: -17vh;
+    width: 25vw;
+    margin: 3vh 3vw auto auto;
+    transition: transform 1s, opacity 1.2s, filter 1s;
+}
+
+img:hover {
+    transform: scale(1.2);
+    opacity: 0;
+    filter: blur(3px);
 }
