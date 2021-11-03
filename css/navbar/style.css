@@ -24,14 +24,14 @@ nav {
     user-select: none;
 }
 .logoavengers {
-    position: absolute;
-    height: 15vh;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
-    transition: left 1.8s;
+    position: absolute !important;
+    height: 15vh !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    margin: auto !important;
+    transition: left 1.8s !important;
 }
 #menu {
     border-top-right-radius: 2%;
