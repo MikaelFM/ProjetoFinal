@@ -40,7 +40,7 @@ const menu = function () {
 
 }
 const fechar = function () {
-    padrao()
+    scroll()
     var menu = document.getElementById('menu').style;
     menu.removeProperty('left');
 }
