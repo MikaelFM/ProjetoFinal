@@ -77,31 +77,25 @@ div#fotos {
 div#fotos, div#pq_div {
     position: relative;
     top: 5vh;
-    display: flex; /*ajustar*/
     text-align: center;
 }
 
 div#Enzo, div#Mateus, div#Mikael {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    text-shadow: 1px 1px 5px rgb(169, 34, 196);
     color: rgb(255, 255, 255);   
 }
 
 div#Enzo span, div#Mateus span, div#Mikael span {
     z-index: 1;
-    font-size: 7vh;
     text-align: center;
     position: relative;
-    top: 7vh; /*Ajustar na media*/
-    left: -2vw; /*Ajustar na media*/
+    text-shadow: 1px 1px 5px rgb(169, 34, 196);
 }
 
 img.rapazes {
     z-index: 2;
     position: relative;
-    top: -17vh;
-    width: 25vw;
     margin: 3vw 3vh auto 1.5vw;
     transition: transform 1s, opacity 1.2s, filter 1s;
 }
@@ -123,8 +117,6 @@ div#pq_div {
 
 p.pq_p {
     font-size: 3vh;
-    margin: 10px 2vw auto 3vw;
-    width: 28vw;
     text-align: left;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -137,7 +129,6 @@ span.title {
 
 footer {
     width: 98vw;
-    
     height: 7vh;
     display: flex;
     color: white;
@@ -147,4 +138,116 @@ footer {
 footer div#rodape {
     margin: auto;
     text-align: center;
+}
+
+@media (min-width: 1200px) {
+    
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 20vh;
+        font-size: 14vh;
+    }
+
+    div#Enzo span, div#Mikael span  {
+        left: -0.5vw;
+    }
+
+    div#Mateus span {
+        left: 0.5vw;
+    }
+
+    img.rapazes {
+        top: -29vh;
+        width: 25vw;
+    }
+
+    div#fotos, div#pq_div {
+        display: flex;
+    }
+
+    p.pq_p {
+        width: 28vw;
+        margin: 10px 2vw auto 3vw;
+    }
+    
+}
+
+@media (min-width: 773px) and (max-width: 1199px) {
+
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 11vh;
+        left: -2vw; 
+        font-size: 8vh;   
+    }
+
+    
+    div#Enzo span, div#Mikael span  {
+        left: -0.5vw;
+    }
+
+    div#Mateus span {
+        left: 0.5vw;
+    }
+
+    img.rapazes {
+        top: -17vh;
+        width: 25vw;
+    }
+
+    div#fotos, div#pq_div {
+        display: flex;
+    }
+
+    p.pq_p {
+        width: 28vw;
+        margin: 10px 2vw auto 3vw;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 772px) {
+
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 7vh;
+        left: -2vw; 
+        font-size: 5vh;   
+    }
+
+    img.rapazes {
+        top: -10vh;
+        width: 25vw;
+    }
+
+    div#fotos, div#pq_div {
+        display: flex;
+    }
+
+    p.pq_p {
+        width: 28vw;
+        margin: 10px 2vw auto 3vw;
+    }
+
+}
+
+@media (min-width: 385px) and (max-width: 480px) {
+
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 7vh;
+        left: -2vw; 
+        font-size: 6vh;
+        display: block;   
+    }
+
+    img.rapazes {
+        top: -17vh;
+        width: 60vw;
+    }
+
+    div#fotos, div#pq_div {
+        display: block;
+    }
+
+    p.pq_p {
+        width: 80vw;
+        margin: 10px 2vw auto 9vw;
+    }
 }
