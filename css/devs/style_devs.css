@@ -1,7 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
 
 body {
-    overflow-x: hidden;
     background-color: rgb(12, 12, 12);
 }
 
@@ -72,7 +71,6 @@ div#fotos {
 
 div#Enzo, div#Mateus, div#Mikael {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 7vh;
     text-align: center;
     text-shadow: 1px 1px 5px rgb(169, 34, 196);
     color: rgb(255, 255, 255);   
@@ -80,6 +78,7 @@ div#Enzo, div#Mateus, div#Mikael {
 
 div#Enzo span, div#Mateus span, div#Mikael span {
     z-index: 1;
+    font-size: 7vh;
     text-align: center;
     position: relative;
     top: 7vh; /*Ajustar na media*/
@@ -91,7 +90,7 @@ img {
     position: relative;
     top: -17vh;
     width: 25vw;
-    margin: 3vh 3vw auto auto;
+    margin: 3vw 3vh auto auto;
     transition: transform 1s, opacity 1.2s, filter 1s;
 }
 
