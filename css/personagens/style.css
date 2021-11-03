@@ -41,6 +41,7 @@ nav {
     background-color: black;
     transition: 1.1s;
     background-image: url('../../img/personagens/fundomenu.png');
+    position: fixed;
 }
 #menu ul {
     padding-top: 15vh;
