@@ -1,6 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
 
 body {
+    overflow-x: hidden;
     background-color: rgb(12, 12, 12);
 }
 
@@ -85,7 +86,7 @@ div#Enzo span, div#Mateus span, div#Mikael span {
     left: -2vw; /*Ajustar na media*/
 }
 
-img {
+img.rapazes {
     z-index: 2;
     position: relative;
     top: -17vh;
@@ -94,7 +95,7 @@ img {
     transition: transform 1s, opacity 1.2s, filter 1s;
 }
 
-img:hover {
+img.rapazes:hover {
     transform: scale(1.2);
     opacity: 0;
     filter: blur(3px) grayscale(0.5);
