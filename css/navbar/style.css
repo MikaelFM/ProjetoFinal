@@ -10,6 +10,7 @@ nav {
     width: 100vw;
     position: fixed;
     transition-duration: 1.8s;
+    right: 0;
 }
 #hamburguer {
     float: left;
@@ -20,6 +21,7 @@ nav {
     top: 50%;
     transform: translateY(-50%);
     transition-duration: 1.8s;
+    user-select: none;
 }
 .logoavengers {
     position: absolute;
@@ -38,8 +40,9 @@ nav {
     width: 25vw;
     height: 100vh;
     background-color: black;
-    transition: 1.8s;
+    transition: 1.1s;
     background-image: url('../../img/personagens/fundomenu.png');
+    position: fixed;
 }
 #menu ul {
     padding-top: 15vh;
@@ -69,6 +72,7 @@ nav {
     color: white;
     font-size: 4vh;
     z-index: 999;
+    user-select: none;
 }
 #close:hover {
     color: rgb(253, 36, 36)
