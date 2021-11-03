@@ -29,6 +29,10 @@
     width: 75px;
     height: 75px;
 }
+
+.capa{
+    width: 100vw;
+}
 /*ajusta o tamanho das imagens*/
 
 
@@ -1347,6 +1351,10 @@
     font-size: 75px;
     text-shadow: 4px 5px 1px black;
     font-weight: bold; /*deixa o texto negrito*/
+}
+
+.curiosidades{
+    margin-top: 0;
 }
 
 .text_curiosidades, .text_curiosidades2, .text_curiosidades3, .text_curiosidades4, .text_curiosidades5{
