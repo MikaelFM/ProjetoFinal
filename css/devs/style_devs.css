@@ -2,7 +2,7 @@
 
 body {
     overflow-x: hidden;
-    background-color: black;
+    background-color: rgb(12, 12, 12);
 }
 
 #navbar, #menu {
@@ -45,7 +45,7 @@ span#spanUm, span#spanDois {
 }
 
 p {
-    font-size: 2.6vh;
+    font-size: 3vh;
     margin: 10px 100px auto auto;
     text-indent: 5.5vw;
     text-align: justify;
@@ -98,5 +98,5 @@ img {
 img:hover {
     transform: scale(1.2);
     opacity: 0;
-    filter: blur(3px);
+    filter: blur(3px) grayscale(0.5);
 }
