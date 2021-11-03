@@ -24,6 +24,11 @@
     height: 370px;
 }
 
+.simbolo_rodape_img{
+    width: 75px;
+    height: 75px;
+}
+
 @media (min-width: 826px) and (max-width: 1100px){
 
     .chamada{
@@ -1717,6 +1722,10 @@
         padding-bottom: 50px;
         margin-bottom: 20px;
     }
+
+    .logo_rodape_img{
+        display: none;
+    }
 }
 
 h1 {
@@ -1746,6 +1755,14 @@ p{
 
 .logo_rodape_img:hover{
     transform: scale(0.9);
+    opacity: 75%;
+    transition: 0.4s;
+}
+
+.simbolo_rodape_img:hover{
+    transform: scale(1.25);
+    margin-left: 2vw;
+    margin-top: -2vw;
     opacity: 75%;
     transition: 0.4s;
 }
@@ -1808,60 +1825,3 @@ body{
     overflow-x: hidden;
 }
 
-/*
-.back{
-    background-image: url(/img/index/Background-opacity10-avengers.png);
-    padding-bottom: 200px;
-    display: block;
-    width: 100vw;
-    margin:0 auto;
-}
-
-.comeco{
-    width: 100vw;
-    text-align: center;
-    color: red;
-    padding-top: 30px;
-}
-
-.text_comeco{
-    text-align: center;
-    margin:0 auto;
-    width: 60vw;
-    display: block;
-}
-
-.red{
-    background-color: red;
-    color: red;
-    opacity: 1;
-    display: block;
-    width: 100vw;
-    margin-top: -35px;
-    transform: rotate(-2deg);
-}
-
-.um{
-    background-color: black;
-    color: white;
-    display: block;
-    width: 100vw;
-}
-
-.imgum{
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
-
-.img_span{
-    position: relative;
-    margin: auto;
-}
-
-.textum{
-    float: right;
-    margin-right: 5vw;
-    margin-top: 10px;
-    width: 50vw;
-    text-align: justify;
-}*/
