@@ -31,18 +31,19 @@ const padrao = function () {
     ham.fontSize = "6vh";
 }
 const menu = function () {
-    var menu = document.getElementById('menu').style;
-    menu.left = "0"
-}
-const fechar = function () {
-    if (window.matchMedia("(max-width:610px)").matches) {
-        var tamanhodanav = "-100vw";
-    } else if (window.matchMedia("(max-width:1470px)").matches) {
-        var tamanhodanav = "-50vw";
-    } else {
-        var tamanhodanav = "-25vw";
+    var navbar = document.getElementById('navbar').style
+    if (window.matchMedia("(max-width:1470px)").matches) {
+        navbar.width = "60vw"
     }
     var menu = document.getElementById('menu').style;
-    menu.left = tamanhodanav
-}
+    menu.left = "0"
+    document.body.style.overflow = 'hidden';
 
+}
+const fechar = function () {
+    var menu = document.getElementById('menu').style;
+    var navbar = document.getElementById('navbar').style
+    menu.removeProperty('left');
+    document.body.style.removeProperty('overflow');
+    navbar.removeProperty('width');
+}

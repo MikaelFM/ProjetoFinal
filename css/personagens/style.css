@@ -10,6 +10,7 @@ nav {
     width: 100vw;
     position: fixed;
     transition-duration: 1.8s;
+    right: 0;
 }
 #hamburguer {
     float: left;
@@ -38,7 +39,7 @@ nav {
     width: 25vw;
     height: 100vh;
     background-color: black;
-    transition: 1.8s;
+    transition: 1.1s;
     background-image: url('../../img/personagens/fundomenu.png');
 }
 #menu ul {
