@@ -50,24 +50,24 @@
     .text_curiosidades{
         width: 75vw; /*determina a largura do elemento selecionado*/
         margin:0 auto; /*determina o alinhamento da margem*/
-        font-size: 20px;
+        font-size: 20px; 
         text-align: center;
-        text-align: justify;
+        text-align: justify; /*justifica o texto*/
     }
 
     .barra_diagonal{
-        background-color: red;
+        background-color: red; /*determina a cor do fundo*/
         color: red;
         display: block;
-        margin-top: -75px;
-        transform: skewY(-2deg);
-        opacity: 60%;
-        padding-bottom: 35px;
-        padding-top: 30px;
+        margin-top: -75px; /*defina a margem do topo*/
+        transform: skewY(-2deg); /*cria uma barra na diagonal*/
+        opacity: 60%; /*determina a opacidade*/
+        padding-bottom: 35px; /*determina a margem interior da parte inferior*/
+        padding-top: 30px; /*determina a margem interior do topo*/
     }
 
     .ajuste_barra_diagonal{
-        background-color: rgb(10, 10, 10);
+        background-color: rgb(10, 10, 10); /*determina a cor do fundo*/
         transform: skewY(-2deg);
         padding-top: 20px;
         padding-bottom: 55px;
@@ -84,15 +84,15 @@
     
     .figure1{
         width: 40vw;
-        float: left;
+        float: left; /*deixa o item determinado como flutuante para a esquerda*/
     }
 
     .imgum{
         margin:0 auto;
-        float: right;
-        margin-right: 6vw;
-        transform: scale(1.1);
-        padding-bottom: 50px;
+        float: right; /*deixa o item determinado como flutuante para a direita*/
+        margin-right: 6vw; /*determina a margem da direita*/
+        transform: scale(1.1); /*tranforma a escala*/
+        padding-bottom: 50px; 
         margin-top: 25px;
     }
 
@@ -101,25 +101,24 @@
         float: right;
         margin-right: 4vw;
         transform: scale(1.35);
-	    transition: 0.3s;
+	    transition: 0.3s; /*determina o tempo de transição do hover*/
         padding-bottom: 50px;
         margin-top: 25px;
     }
-
 
     .sinopse{
         color: white;
         text-align: center;
         margin-top: -70px;
         font-size: 25px;
-        display: inline-block;
+        display: inline-block; /*faz um bloco em linha*/
     }
 
     .text_sinopse{
         text-align: justify;
         width: 85%;
         margin:0 auto;
-        line-height: 30px;
+        line-height: 30px; /*determina o distanciamento das linhas*/
         color: white;
         margin-bottom: 12VW;
         font-size: 18px;
@@ -468,7 +467,7 @@
     }
 
     .simbolo_rodape_img{
-        display: none;
+        display: none; /*deixa invisivel o item selecionado*/
     }
 }
 
@@ -1341,13 +1340,13 @@
 .sub_avengers, .sub_avengers2, .sub_avengers3, .sub_avengers4{
     font-size: 44px;
     padding-bottom: -30px;
-    text-shadow: 3px 5px 3px black;
+    text-shadow: 3px 5px 3px black; /*determina a sombra do texto*/
 }
 
 .curiosidades, .curiosidades2, .curiosidades3, .curiosidades4, .curiosidades5{
     font-size: 75px;
     text-shadow: 4px 5px 1px black;
-    font-weight: bold;
+    font-weight: bold; /*deixa o texto negrito*/
 }
 
 .text_curiosidades, .text_curiosidades2, .text_curiosidades3, .text_curiosidades4, .text_curiosidades5{
@@ -1779,7 +1778,7 @@
 }
 
 h1 {
-    font-family: 'Lovelo', sans-serif;
+    font-family: 'Lovelo', sans-serif; /*determina a fonte*/
     font-weight: bold;
 }
 
@@ -1863,7 +1862,7 @@ p{
 /*------------------------------------*/
 
 body{
-    margin: 0;
+    margin: 0; /*determina a margem como zero*/
     background-color: rgb(10, 10, 10);
-    overflow-x: hidden;
+    overflow-x: hidden; /*retira a barra lateral*/
 }
