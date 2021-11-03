@@ -77,7 +77,7 @@ div#fotos {
 div#fotos, div#pq_div {
     position: relative;
     top: 5vh;
-    display: flex;
+    display: flex; /*ajustar*/
     text-align: center;
 }
 
