@@ -1,9 +1,4 @@
-* {
-    
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 nav {
     background-color: black;
     height: 15vh;
@@ -11,6 +6,7 @@ nav {
     position: fixed;
     transition-duration: 1.8s;
     right: 0;
+    z-index: 999;
 }
 #hamburguer {
     float: left;
@@ -24,16 +20,17 @@ nav {
     user-select: none;
 }
 .logoavengers {
-    position: absolute !important;
-    height: 15vh !important;
-    top: 0 !important;
-    bottom: 0 !important;
-    right: 0 !important;
-    left: 0 !important;
-    margin: auto !important;
-    transition: left 1.8s !important;
+    position: absolute ;
+    height: 15vh ;
+    top: 0 ;
+    bottom: 0 ;
+    right: 0 ;
+    left: 0 ;
+    margin: auto ;
+    transition: left 1.8s ;
 }
 #menu {
+    z-index: 1000;
     border-top-right-radius: 2%;
     position: absolute;
     left: -25vw;
