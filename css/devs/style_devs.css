@@ -2,6 +2,11 @@
 
 body {
     overflow-x: hidden;
+    background-color: black;
+}
+
+#navbar, #menu {
+    z-index: 3;
 }
 
 section#intro {
@@ -48,7 +53,6 @@ p {
 }
 
 section#fotos {
-    background-color: black;
     width: 100%;
     padding: 3vw;
 }
@@ -59,6 +63,8 @@ section#fotos h1 {
 }
 
 div#fotos {
+    position: relative;
+    top: 5vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -73,6 +79,7 @@ div#Enzo, div#Mateus, div#Mikael {
 }
 
 div#Enzo span, div#Mateus span, div#Mikael span {
+    z-index: 1;
     text-align: center;
     position: relative;
     top: 7vh; /*Ajustar na media*/
@@ -80,6 +87,7 @@ div#Enzo span, div#Mateus span, div#Mikael span {
 }
 
 img {
+    z-index: 2;
     position: relative;
     top: -17vh;
     width: 25vw;
