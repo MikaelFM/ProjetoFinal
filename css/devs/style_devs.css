@@ -50,7 +50,7 @@ span#spanUm, span#spanDois {
 
 p#inicial {
     font-size: 3vh;
-    margin: 10px 100px auto auto;
+    margin: 10px 10vw auto auto;
     text-indent: 5.5vw;
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -109,7 +109,6 @@ img.rapazes:hover {
 }
 
 section#pq {
-    height: 70vh;
     background-image: linear-gradient(to right bottom, #33175C 0.4%, #89455F 30%, #522FAC);
 }
 
@@ -129,5 +128,4 @@ span.title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vh;
     color:#BB9AB8;
-
 }
