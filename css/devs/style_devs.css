@@ -204,7 +204,7 @@ footer div#rodape {
 
 }
 
-@media (min-width: 481px) and (max-width: 772px) {
+@media (min-width: 521px) and (max-width: 772px) {
 
     div#Enzo span, div#Mateus span, div#Mikael span {
         top: 7vh; /*Tamanho do topo*/
@@ -228,7 +228,7 @@ footer div#rodape {
 
 }
 
-@media (min-width: 385px) and (max-width: 480px) {
+@media (max-width: 520px) {
 
     div#Enzo span, div#Mateus span, div#Mikael span {
         top: 7vh; /*Distância do topo*/
