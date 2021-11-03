@@ -21,6 +21,7 @@ nav {
     top: 50%;
     transform: translateY(-50%);
     transition-duration: 1.8s;
+    user-select: none;
 }
 .logoavengers {
     position: absolute;
@@ -71,6 +72,7 @@ nav {
     color: white;
     font-size: 4vh;
     z-index: 999;
+    user-select: none;
 }
 #close:hover {
     color: rgb(253, 36, 36)

@@ -31,19 +31,16 @@ const padrao = function () {
     ham.fontSize = "6vh";
 }
 const menu = function () {
-    var navbar = document.getElementById('navbar').style
-    if (window.matchMedia("(max-width:1470px)").matches) {
-        navbar.width = "60vw"
-    }
+    if (window.matchMedia("(max-width:1470px) and (min-width:611px)").matches) {
+        navbar()
+        console.log('a viewport tem pelo menos 800 pixels de largura')
+      }
     var menu = document.getElementById('menu').style;
     menu.left = "0"
-    document.body.style.overflow = 'hidden';
 
 }
 const fechar = function () {
+    padrao()
     var menu = document.getElementById('menu').style;
-    var navbar = document.getElementById('navbar').style
     menu.removeProperty('left');
-    document.body.style.removeProperty('overflow');
-    navbar.removeProperty('width');
 }
