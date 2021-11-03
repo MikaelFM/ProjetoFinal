@@ -1,5 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
 
+* {
+    user-select: none;
+}
+
 body {
     overflow-x: hidden;
     background-color: rgb(12, 12, 12);
@@ -15,7 +19,7 @@ header {
 
 section#intro {
     position: relative;
-    padding: 18vh 2vh 5vh 2vh;
+    padding: 20vh 2vh 8vh 2vh;
     width: 100%;
     z-index: -1;
     background-image: linear-gradient(to right bottom, rgb(0, 0, 255) 0.4%, rgb(214, 104, 104) 30%, rgb(122, 29, 29));
@@ -56,12 +60,12 @@ p#inicial {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-section#fotos, section#pq {
+section#fotografias, section#pq {
     width: 100%;
     padding: 3vw;
 }
 
-section#fotos h1 {
+section#fotografias h1 {
     color:rgb(255, 255, 255);
     text-shadow: 1px 1px 5px rgb(65, 44, 255);
 }
@@ -110,6 +114,7 @@ img.rapazes:hover {
 
 section#pq {
     background-image: linear-gradient(to right bottom, #33175C 0.4%, #89455F 30%, #522FAC);
+    padding-bottom: 20vh;
 }
 
 div#pq_div {
@@ -128,4 +133,18 @@ span.title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vh;
     color:#BB9AB8;
+}
+
+footer {
+    width: 98vw;
+    
+    height: 7vh;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+footer div#rodape {
+    margin: auto;
+    text-align: center;
 }
