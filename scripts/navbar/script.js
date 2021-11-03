@@ -1,7 +1,7 @@
 window.addEventListener('scroll', function () {
     scroll()
 })
-// ve se o scroll esta no inicio ou nao
+// ve se o scroll esta no inicio ou nao. Se tiver, chama a função navbar(), se não, chama a função padrao().
 const scroll = function () {
     const scrollado = window.pageYOffset;
     if (scrollado > 3) {

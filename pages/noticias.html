@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias | Avengers</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar/style.css">
+    <link rel="stylesheet" href="../fonts/noticias/fonts.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="../scripts/noticias/script.js"></script>
+    <link rel="stylesheet" href="../css/noticias/style.css">
+</head>
+<body onload="tamdiv()" onload="slidertext()">
+    <header>
+        <nav id="navbar">
+            <span class="material-icons" id="hamburguer" onclick="menu()">menu</span>
+            <img id="logoavengers" class="logoavengers" src="../img/navbar/logoavengers.png" alt="">
+        </nav>
+        <div id="menu">
+            <span class="material-icons" id="close" >close</span>
+            <ul>
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">Notícias</a></li>
+                <li><a href="#" class="link">Personagens</a></li>
+                <li><a href="#" class="link">Avengers Invasion</a></li>
+                <li><a href="#" class="link">Sobre os Devs</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="slidernoticias">
+        <h1 id="noticias" onload="slidertext()">
+            Noticias
+        </h1>
+        <!-- carousel do bootstrap -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="../img/noticias/noticia (1).jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/noticias/noticia (2).jpg" alt="Second slide">
+              <div class="carousel-item">
+                <img class="d-block w-100" src="../img/noticias/noticia (3).jpg" alt="Third slide">
+              </div>
+            </div>
+            <hr>
+            <h1 id="descnot">TESTE</h1>
+          </div>
+
+    </section>
+    <section id="news">
+        <h1 class="latest"> LATEST NEWS</h1>
+        <div class="imgnoticia">
+        </div>
+        <div class="desnews">
+            <h1 class="newstitle">
+                FINALMENTE! Trailer de Homem-Aranha Sem Volta para Casa é lançado – assista!
+            </h1>
+            <p class="newsspan">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ullam quia dicta aspernatur alias iure! Natus aspernatur itaque nisi dolorum fuga necessitatibus, quibusdam alias consequatur obcaecati, odio, iusto quia reprehenderit.
+            </p>
+            <button>Leia Mais</button>
+        </div>
+    </section>
+    <section id="newsblack">
+        <div class="imgnoticia whitefont espacotop">
+        </div>
+        <div class="desnews whitefont espacotop">
+            <h1 class="newstitle whitefont">
+                FINALMENTE! Trailer de Homem-Aranha Sem Volta para Casa é lançado – assista!
+            </h1>
+            <p class="newsspan whitefont">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit ullam quia dicta aspernatur alias iure! Natus aspernatur itaque nisi dolorum fuga necessitatibus, quibusdam alias consequatur obcaecati, odio, iusto quia reprehenderit.
+            </p>
+            <button>Leia Mais</button>
+        </div>
+    </section>
+    <section id="blocodenoticias">
+        <div class="noticia">
+            <div id="imagemnew1" class="imagemnew">
+
+            </div>
+            <h1>tag</h1>
+            <p>desc</p>
+        </div>
+        <div class="noticia">
+            <div id="imagemnew2" class="imagemnew">
+
+            </div>
+            <h1>tag</h1>
+            <p>desc</p>
+        </div>
+        <div class="noticia">
+            <div id="imagemnew3" class="imagemnew">
+
+            </div>
+            <h1>tag</h1>
+            <p>desc</p>
+        </div>
+        <div class="noticia">
+            <div id="imagemnew4" class="imagemnew">
+
+            </div>
+            <h1>tag</h1>
+            <p>desc</p>
+        </div>
+    </section>
+    <section id="trailer">
+        <div id="formas">
+            <div id="forma1"></div>
+            <div id="forma2" class="forma2"></div>
+            <div id="forma3" class="forma2"></div>
+            <div id="forma4" class="forma2"></div>
+            <div id="forma5" class="forma2"></div>
+            <div id="forma6"></div>
+        </div>
+        <div id="um">
+            <img src="../img/noticias/aranha.png" alt="">
+        </div>
+        <div id="dois">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FDNNHh7TRN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="formas2">
+            <div id="forma1"></div>
+            <div id="forma2" class="forma2"></div>
+            <div id="forma4" class="forma2"></div>
+            <div id="forma5" class="forma2"></div>
+            <div id="forma6"></div>
+        </div>
+    </section>
+    <section id="form">
+        <form>
+            <h1>Registre-se e receba mais notícias!</h1>
+            <div id="campos">
+                <ul>
+                     <li><input type="text" placeholder="Nome" ></li>
+                    <li><input type="text" placeholder="Sobrenome" autocomplete="off"></li>
+                </ul>
+                <ul>
+                    <li><input type="date" placeholder="Data de Nascimento" autocomplete="off"></li>
+                   <li><input type="email" placeholder="E-mail" autocomplete="off"></li>
+               </ul>
+                <ul>
+                    <li><input type="password" placeholder="Senha" autocomplete="off"></li>
+                    <li><input type="password" placeholder="Repita a senha" autocomplete="off"></li>
+                </ul>
+                <ul>
+                    <li>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe aqui sua sugestão" autocomplete="off"></textarea>
+                    </li>
+                </ul>
+                <ul>
+                       <li>
+                           <input type="checkbox" name="notificacao" id="checkbox">
+                           <label for="checkbox">Desejo receber notificações sobre as noticias</label>
+                       </li>
+                </ul>
+                <ul>
+                    <li>
+                        <input type="submit" value="Enviar" class="button" id="submit" >
+                        <input type="reset" value="Cancelar" class="button" id="cancelar">
+                    </li>
+             </ul>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
