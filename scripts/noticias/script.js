@@ -18,14 +18,3 @@ const fechar = function () {
     var menu = document.getElementById('menu').style;
     menu.removeProperty('left');
 }
-function myFunction() {
-    array = ['test1', 'teste2', 'rs2']
-    setInterval(function(){
-        if (x > 3){
-            x = 0
-        }
-        desc = document.getElementById('descnot')
-        desc.innerText = array[x]
-        x += 1
-    }, 5300);
-  }
