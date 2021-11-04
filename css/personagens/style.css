@@ -172,31 +172,31 @@ li[class="icon"] {
 #personagem0{
     background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 #personagem1{
     background-image: url('../../img/personagens/wallpaper/pthor.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 #personagem2{
     background-image: url('../../img/personagens/wallpaper/pha.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 #personagem3{
     background-image: url('../../img/personagens/wallpaper/phf.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 #personagem4{
     background-image: url('../../img/personagens/wallpaper/ppantera.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 #personagem5{
@@ -208,60 +208,60 @@ li[class="icon"] {
 #personagem6{
     background-image: url('../../img/personagens/wallpaper/phulk.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 #personagem7{
     background-image: url('../../img/personagens/wallpaper/pviuva.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem0 {
     background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
 }
 .personagem1 {
     background-image: url('../../img/personagens/wallpaper/pthor.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem2 {
     background-image: url('../../img/personagens/wallpaper/pha.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem3 {
     background-image: url('../../img/personagens/wallpaper/phf.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem4 {
     background-image: url('../../img/personagens/wallpaper/ppantera.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem5 {
     background-image: url('../../img/personagens/wallpaper/pdrestranho.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem6 {
     background-image: url('../../img/personagens/wallpaper/phulk.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
 }
 .personagem7 {
     background-image: url('../../img/personagens/wallpaper/pviuva.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover;
     background-position: center;
 }
