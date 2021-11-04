@@ -2,6 +2,9 @@
 @import url(//db.onlinewebfonts.com/c/7cc8cbbd7a330c0d1e7c08c6d62711e4?family=League+Spartan);
 @import url(//db.onlinewebfonts.com/c/1f75154643c08ae550c78c5ba92ba8f8?family=AwanZaman-Regular);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap');
+body::-webkit-scrollbar{
+    display: none;
+}
 * { 
     margin: 0;
     padding: 0;
@@ -10,6 +13,7 @@
 #slidernoticias {
     background-image: url('../../img/noticias/fundoslider.png');
     background-size: cover;
+    background-position: center;
     height: 90vh;
     background-color: gray;
     width: 98vw;
@@ -24,10 +28,10 @@
     max-height: 100%;
     width: 60%;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 #slider {
-    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
     border: 0.4vw solid rgb(211, 211, 211);   
     overflow: hidden;
     height: 80%;
@@ -40,7 +44,7 @@
 nav {
     top: 0;
     height: 10vh;
-    width: 99vw;
+    width: 100vw;
 }
 .logoavengers {
     height: 10vh;
@@ -52,6 +56,7 @@ nav {
 }
 #noticias {
     font-family: 'Gagalin', sans-serif;
+    margin-top: 10vh;
 }
 #news, #newsblack {
     background-color: white;
@@ -349,4 +354,30 @@ hr {
 a {
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width: 1640px) {
+    #news, #newsblack, #slidernoticias, #blocodenoticias, #trailer, #form {
+        width: 99%;
+    }
+
+}
+@media screen and (max-width: 960px) {
+    #slidernoticias {
+        height: 70vh;
+    }
+    #noticias {
+        position: relative;
+    }
+}
+@media screen and (max-width: 600px) {
+    #slidernoticias {
+        height: 30vh;
+    }
+    #slide {
+        height: 40vh;
+        background-size: 2%;
+    }
+    #noticias {
+        position: relative;
+    }
 }
