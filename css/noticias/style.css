@@ -381,3 +381,6 @@ a {
         position: relative;
     }
 }
+iframe {
+    border: 0;
+}

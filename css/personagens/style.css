@@ -1,16 +1,21 @@
 @import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap');
+/* define a cor de fundo do body, define que o body não tera barra de rolagem, nem podera ser selecionado pelo usuário */
 body {
     background-color: #181818;
     overflow-x: hidden;
     user-select: none;
+    max-height: 50vw;
 }
+/* define margin 0 para todos elementos */
 * {
     margin: 0;
 }
+/* traz a nav para camada mais da frente */
 nav {
     z-index: 999;
 }
+/* define as noticias com uma posição absoluta, define a largura, altura, cor de fundo, margem do topo e que ela não terá barra de rolagem */
 #noticias {
     position: absolute;
     width: 99vw;
@@ -19,6 +24,7 @@ nav {
     margin-top: 15vh;
     overflow: hidden
 }
+/* define a posição da shape, a largura, a altura, a margem para ambos lados, a cor de fundo e a transição. */
 .shape {
     top: 0;
     bottom: 0;
@@ -30,11 +36,12 @@ nav {
     -moz-transition: all .5s ease-out;
     transition: all .5s ease-out;
 }
-
+/* define a forma desta classe. Deixa ela na forma que vemos no site. */
 .shape.square.to-bevel, .shape-menor.square.to-bevel {
     -webkit-clip-path: polygon(0% 0%, 70% 0%, 100% 20%, 100% 100%, 80% 100%, 30% 100%, 0% 80%, 0% 0%);
     clip-path: polygon(0% 0%, 70% 0%, 100% 20%, 100% 100%, 80% 100%, 30% 100%, 0% 80%, 0% 0%);
 }
+/* centraliza este elemento, define sua cor de fundo, sua altura e largura. */
 #blocogrande {
     margin: 0 auto;
     background-color: #090909;
@@ -242,6 +249,16 @@ li[class="icon"] {
 #pequeno {
     border-bottom-left-radius: 15%;
 }
+#menu ul{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+#menu ul li{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
 @media screen and (max-width: 1344px) {
     #blocogrande {
         width: 100vw;
@@ -250,29 +267,14 @@ li[class="icon"] {
         width: 100vw;
     }
 }
-
-@media (min-width: 773px) and (max-width: 1199px) {
-
-    
-}    
-
-@media (min-width: 521px) and (max-width: 772px) {
-
-    #blocogrande {
-        width: 100vw;
+@media screen and (max-width: 800px) {
+    #bloco {
+        width: 65%;   
     }
-
-    #galeria {
-        width: 60vw;
-        height: 100vh;
-    }
-
-    section.noticias {
-        height: 100vh;
-    }
-
 }
-
-@media (max-width: 520px) {
-
+@media screen and (max-width: 500px) {
+    #bloco {
+        width: 55%;   
+    }
+    
 }

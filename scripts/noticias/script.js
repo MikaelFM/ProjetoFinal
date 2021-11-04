@@ -18,3 +18,10 @@ const fechar = function () {
     var menu = document.getElementById('menu').style;
     menu.removeProperty('left');
 }
+function open(link){
+    alert(link)
+    links = ["https://centralvingadores.com.br/poster-de-what-if-revela-chegada-de-tchalla-como-senhor-das-estrelas/", "https://centralvingadores.com.br/trailer-de-homem-aranha-sem-volta-para-casa-assista/"]
+    alert(links[link])
+    window.location = links[link];
+    target = "_blank";
+}
