@@ -30,7 +30,7 @@
     height: 75px;
 }
 
-.capa{
+.capa, .capa_desktop{
     margin-top: 15vh;
     width: 100vw;
 }
@@ -38,6 +38,10 @@
 
 
 @media (min-width: 826px) and (max-width: 1100px){
+
+    .capa_desktop{
+        display: none;
+    }
 
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png'); /*coloca uma imagem como fundo*/
@@ -487,6 +491,10 @@
 
 @media (min-width: 520px) and (max-width: 825px){
 
+    .capa_desktop{
+        display: none;
+    }
+
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
@@ -898,6 +906,10 @@
 
 
 @media (min-width: 1100px){
+
+    .capa{
+        display: none;
+    }
 
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
@@ -1389,6 +1401,10 @@
 
 
 @media (max-width: 520px){
+
+    .capa_desktop{
+        display: none;
+    }
 
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
