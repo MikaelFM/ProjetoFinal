@@ -5,6 +5,10 @@
 /*importa as fontes*/
 
 
+#menu ul li {
+    padding-left: 0px; /*Posiciona melhor nossos itens*/
+}
+
 .imgum{
     width: 250px;
     height: 370px;
