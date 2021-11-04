@@ -90,6 +90,7 @@ section#fotografias h1 {
 
 div#fotos {
     align-items: center; /*Alinhamento do conteúdo de nossa div*/
+    margin: auto auto auto -3.6vw;
 }
 
 div#fotos, div#pq_div {
