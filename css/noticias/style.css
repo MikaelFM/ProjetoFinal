@@ -355,6 +355,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 @media screen and (max-width: 1640px) {
     #news, #newsblack, #slidernoticias, #blocodenoticias, #trailer, #form {
         width: 99%;
