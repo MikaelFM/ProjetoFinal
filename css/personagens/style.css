@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap');
 body {
     background-color: #181818;
+    overflow-x: hidden;
+    user-select: none;
 }
 * {
     margin: 0;
@@ -216,7 +218,8 @@ li[class="icon"] {
     right: 0;
 }
 #acessibilidade ul {
-    position: relative;
+    position: fixed;
+    right: 0vw;		
     padding: 0;
     margin: 0;
     overflow: hidden
@@ -244,6 +247,9 @@ li[class="icon"] {
         width: 100vw;
     }
     #galeria {
-        width: 100vw
+        width: 100vw;
     }
 }
+
+/*@media (min-width: 773px) and (max-width: 1199px) {
+}    */
