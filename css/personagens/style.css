@@ -142,12 +142,11 @@ li[class="icon"] {
     float: left;
 }
 #img {
-    margin-right: 20%;
+    margin-right: 10%;
     height: 100%;
     position: relative;
-    width: 22%;
+    width: 35%;
     float: right;
-    background-image: url('../../img/personagens/wallpaper/pthor.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -170,49 +169,96 @@ li[class="icon"] {
     font-size: 1.2vw;
 }
 
-#personagem0 {
+#personagem0, .personagem0 {
     background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem1 {
+#personagem1, .personagem1 {
     background-image: url('../../img/personagens/wallpaper/pthor.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem2 {
+#personagem2, .personagem2 {
     background-image: url('../../img/personagens/wallpaper/pha.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem3 {
+#personagem3, .personagem3 {
     background-image: url('../../img/personagens/wallpaper/phf.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem4 {
+#personagem4, .personagem4 {
     background-image: url('../../img/personagens/wallpaper/ppantera.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem5 {
+#personagem5, .personagem5 {
     background-image: url('../../img/personagens/wallpaper/pdrestranho.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem6 {
+#personagem6, .personagem6 {
     background-image: url('../../img/personagens/wallpaper/phulk.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-#personagem7 {
+#personagem7, .personagem7 {
+    background-image: url('../../img/personagens/wallpaper/pviuva.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem0 {
+    background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.personagem1 {
+    background-image: url('../../img/personagens/wallpaper/pthor.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem2 {
+    background-image: url('../../img/personagens/wallpaper/pha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem3 {
+    background-image: url('../../img/personagens/wallpaper/phf.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem4 {
+    background-image: url('../../img/personagens/wallpaper/ppantera.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem5 {
+    background-image: url('../../img/personagens/wallpaper/pdrestranho.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem6 {
+    background-image: url('../../img/personagens/wallpaper/phulk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.personagem7 {
     background-image: url('../../img/personagens/wallpaper/pviuva.png');
     background-repeat: no-repeat;
     background-position: center;
