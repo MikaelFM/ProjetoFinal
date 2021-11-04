@@ -251,5 +251,28 @@ li[class="icon"] {
     }
 }
 
-/*@media (min-width: 773px) and (max-width: 1199px) {
-}    */
+@media (min-width: 773px) and (max-width: 1199px) {
+
+    
+}    
+
+@media (min-width: 521px) and (max-width: 772px) {
+
+    #blocogrande {
+        width: 100vw;
+    }
+
+    #galeria {
+        width: 60vw;
+        height: 100vh;
+    }
+
+    section.noticias {
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 520px) {
+
+}
