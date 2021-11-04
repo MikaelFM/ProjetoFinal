@@ -1,32 +1,34 @@
-@import url(//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin);
+/*Importação de fontes e de recursos*/
+@import url(//db.onlinewebfonts.com/c/240a7cb10b49b02c94ceddc459d385a9?family=Gagalin); 
 @import url(//db.onlinewebfonts.com/c/7cc8cbbd7a330c0d1e7c08c6d62711e4?family=League+Spartan);
 @import url(//db.onlinewebfonts.com/c/1f75154643c08ae550c78c5ba92ba8f8?family=AwanZaman-Regular);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap');
+
+
 body::-webkit-scrollbar{
-    display: none;
+    display: none; /*Faz com que o elemento não apareça em tela (não tem display)*/
 }
 * { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;  /*Deixa os elementos sem margem*/
+    padding: 0; /*Deixa os elementos sem padding*/
+    box-sizing: border-box; /*Ajusta o tamanho da borda do elemento*/
 }
 #slidernoticias {
-    background-image: url('../../img/noticias/fundoslider.png');
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    background-color: gray;
-    width: 98vw;
-    margin-top: 10vh;
-    z-index: -1;
-    overflow: hidden;
-    border-bottom: 1vh solid black;
-    overflow: hidden;
+    background-image: url('../../img/noticias/fundoslider.png'); /*Da um plano de fundo ao nosso elemento*/
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    height: 90vh; /*Ajusta a altura*/
+    background-color: gray; /*Ajusta a cor de fundo*/
+    width: 98vw; /*Ajusta a largura*/
+    margin-top: 10vh; /*Ajusta a margem do topo do elemento*/
+    z-index: -1; /*Ajusta a camada em que o elemento está*/
+    overflow: hidden; /*Não permite scroll*/
+    border-bottom: 1vh solid black; /*Borda da parte de baixo*/
 }
 #slidere {
-    height: 80%;
-    max-height: 100%;
-    width: 60%;
+    height: 80%; /*Ajusta a altura*/
+    max-height: 100%; /*Ajusta a altura máxima*/
+    width: 60%; /*Ajusta a largura*/
     margin: 0 auto;
 }
 #slider {
@@ -34,20 +36,20 @@ body::-webkit-scrollbar{
     background-position: center;
     border: 0.4vw solid rgb(211, 211, 211);   
     overflow: hidden;
-    height: 80%;
+    height: 80%; /*Ajusta a altura*/
     background-color: gray;
     position: relative;
     margin: 0 auto;
     background-image: url('../../img/noticias/hulk_ironman.jpeg');
-    transition-duration: 0.5s;
+    transition-duration: 0.5s; /*Transição para deixar mudanças mais suaves*/
 }
 nav {
     top: 0;
-    height: 10vh;
-    width: 100vw;
+    height: 10vh; /*Ajusta a altura*/
+    width: 100vw; /*Ajusta a largura*/
 }
 .logoavengers {
-    height: 10vh;
+    height: 10vh; /*Ajusta a altura*/
     left: calc(100vw - 32vh);
     overflow: hidden;
 }
@@ -60,8 +62,8 @@ nav {
 }
 #news, #newsblack {
     background-color: white;
-    width: 99vw;
-    height: 30vw;
+    width: 99vw; /*Ajusta a largura*/
+    height: 30vw; /*Ajusta a altura*/
     border-bottom: solid 0.5vw red;
     overflow: hidden;
 }
@@ -75,58 +77,58 @@ nav {
 }
 #noticia1 {
     background-image: url('../../img/noticias/wakanda.jpg');
-    background-position: center;
-    background-size: cover;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 #noticia2 {
     background-image: url('../../img/noticias/semvoltaparacasa.jpg');
-    background-size: cover;
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
     background-repeat: no-repeat;
 }
 #imagemnew1{
     background-image: url('../../img/noticias/Loki.jpg');
-    background-position: center;
-    background-size: cover;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 #imagemnew2{
     background-image: url('../../img/noticias/whatif.jpg');
-    background-position: center;
-    background-size: cover;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 #imagemnew3{
     background-image: url('../../img/noticias/harry.jpg');
-    background-position: center;
-    background-size: cover;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 #imagemnew4{
     background-image: url('../../img/noticias/filmeeternos.jpg');
-    background-position: center;
-    background-size: cover;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 .imagemnew:hover, .imgnoticia:hover, #slider:hover {
-    filter: grayscale(1);
-    transform: scale(1.05);
+    filter: grayscale(1); /*Filtro para escala de cinza*/
+    transform: scale(1.05); /*Gira o elemento*/
 }
 .latest {
-    font-size: 3vw
+    font-size: 3vw;
 }
 .imgnoticia {
     transition-duration: 0.5s;
-    float: left;
-    margin-left: 3vw;
+    float: left; /*Coloca à esquerda*/
+    margin-left: 3vw; /*Margem da esquerda*/
     background-color: black;
     position: relative;
-    height: 60%;
-    width: 30%;
+    height: 60%; /*Ajusta a altura*/
+    width: 30%; /*Ajusta a largura*/
 }
 .desnews {
     float: right;
-    width: calc(94vw - 30%);
+    width: calc(94vw - 30%); /*Ajusta a largura*/
 }
 .newstitle{
     font-weight: bold;
     display: block;
-    width: 70%;
+    width: 70%; /*Ajusta a largura*/
     font-family: "AwanZaman-Regular", sans-serif;
     font-size: 2.3vw;
 }
@@ -137,7 +139,7 @@ nav {
 .desnews button {
     font-family:  "AwanZaman-Regular", sans-serif;
     font-size: 1.1vw;
-    width: 10vw;
+    width: 10vw; /*Ajusta a largura*/
     background-color: white;
     border: 1px solid rgb(192, 192, 192)
 }
@@ -157,19 +159,19 @@ nav {
     padding: 0 6%;
     display: flex;
     flex-direction: row;
-    width: 99vw;
-    height: 20vw;
+    width: 99vw; /*Ajusta a largura*/
+    height: 20vw; /*Ajusta a altura*/
     overflow: hidden;
 }
 .imagemnew {
     transition-duration: 0.5s;
-    width: 100%;
-    height: 70%;
+    width: 100%; /*Ajusta a largura*/
+    height: 70%; /*Ajusta a altura*/
     background-color: rgb(190, 190, 190);
 }
 .noticia {
-    width: 25%;
-    height: 80%;
+    width: 25%; /*Ajusta a largura*/
+    height: 80%; /*Ajusta a altura*/
     margin: 1%;
 }
 .noticia h1 {
@@ -181,15 +183,15 @@ nav {
     font-weight: bold   ;
 }
 #trailer {
-    height: 40vw;
+    height: 40vw; /*Ajusta a altura*/
     background-color: #D40000;
     display: flex;
     flex-direction: row;
-    width: 99vw;
+    width: 99vw; /*Ajusta a largura*/
     overflow-x: hidden;
 }
 #um, #dois{
-    width: 50%;
+    width: 50%; /*Ajusta a largura*/
 }
 #trailer #um img {
     margin: 0 7vw;
@@ -197,11 +199,11 @@ nav {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    height: 80%;
+    height: 80%; /*Ajusta a altura*/
 }
 #video {
-    height: 70%;
-    width: 100%;
+    height: 70%; /*Ajusta a altura*/
+    width: 100%; /*Ajusta a largura*/
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -210,14 +212,14 @@ nav {
 }
 
 #forma1, #forma6 {
-    width: 800%;
+    width: 800%; /*Ajusta a largura*/
     background-color: black;
-    height: 100%;
+    height: 100%; /*Ajusta a altura*/
 }
 .forma2 {
     margin-left: 10%;
-    width: 1000%;
-    height: 100%;
+    width: 1000%; /*Ajusta a largura*/
+    height: 100%; /*Ajusta a altura*/
     background: #000000;
     -webkit-transform: skew(-20deg);
    -moz-transform: skew(-20deg);
@@ -225,10 +227,10 @@ nav {
 }
 #formas, #formas2 {
     position: absolute;
-    height: 3vw;
+    height: 3vw; /*Ajusta a altura*/
     display: flex;
     flex-direction: row;
-    width: 99vw;
+    width: 99vw; /*Ajusta a largura*/
 }
 #formas2{
     margin-top: 37vw;
@@ -240,16 +242,16 @@ nav {
     margin-left: -2vw;
     -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
-      -o-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
 }
 #formas2 .forma2 {
-    width: 200%;
+    width: 200%; /*Ajusta a largura*/
 }
 #formas2 #forma6 {
-    width: 1000%;
+    width: 1000%; /*Ajusta a largura*/
 }
 #form {
-    height: 50vw;
+    height: 50vw; /*Ajusta a altura*/
     background-color: rgb(14, 13, 13);
     overflow-x: hidden;
 }
@@ -259,7 +261,7 @@ nav {
     color: rgb(221, 221, 221);
 }
 ul {
-    width: 90%;
+    width: 90%; /*Ajusta a largura*/
     margin: 0 auto;
 }
 ul li {
@@ -271,23 +273,23 @@ ul li input {
     background-color: rgb(29, 29, 29);
     border: none;
     border-radius: 2px;
-    width: 40.2vw;
-    height: 4vw;
+    width: 40.2vw; /*Ajusta a largura*/
+    height: 4vw; /*Ajusta a altura*/
 }
 textarea {
-    height: 12vw;
+    height: 12vw; /*Ajusta a altura*/
     border-radius: 2px;
     border: none;
-    width: 81.7vw;
+    width: 81.7vw; /*Ajusta a largura*/
     margin: 0 auto;
     background-color: rgb(29, 29, 29);
     padding: 1vw;
 }
 #checkbox {
-    width: 2vw;
+    width: 2vw; /*Ajusta a largura*/
     padding-left: 10vw;
     margin-right: 0.1vw;
-    height: 2vh;
+    height: 2vh; /*Ajusta a altura*/
 }
 label {
     color: rgb(184, 184, 184);
@@ -295,7 +297,7 @@ label {
 }
 .button {
     font-size: 1.2vw;
-    width: 10vw;
+    width: 10vw; /*Ajusta a largura*/
     color: rgb(192, 192, 192);
 }
 .button:hover {
@@ -316,33 +318,33 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-right: 1vw;
   }
 carousel-inner img {
-    width: 80vw;
+    width: 80vw; /*Ajusta a largura*/
 }
 .w-100 {
     border-radius: 5px;
     border: 8px solid rgb(233, 233, 233);
-    width: 60vw !important;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+    width: 60vw !important; /*Ajusta a largura*/
+    bottom: 0; /*Distância da parte debaixo*/
+    top: 0; /*Distância do topo*/
+    left: 0; /*Distância da esquerda*/
+    right: 0; /*Distância da direita*/
     margin: auto;
 }
 h5 {
-    position: absolute;
+    position: absolute; /*Posição absoluta (em relação ao elemento pai)*/
     color: black;
 }
 #noticias {
     margin: 1.3vw auto;
     display: block;
-    width: 60vw;
+    width: 60vw; /*Ajusta a largura*/
     text-align: left;
     font-size: 2vw;
 }
 hr {
-    height: 0.1vw;
+    height: 0.1vw; /*Ajusta a altura*/
     background-color: rgb(255, 0, 0);
-    width: calc(60vw + 16px);
+    width: calc(60vw + 16px); /*Ajusta a largura*/
     display: block;
     margin: 1.3vw auto;
 }
@@ -358,13 +360,13 @@ a {
 
 @media screen and (max-width: 1640px) {
     #news, #newsblack, #slidernoticias, #blocodenoticias, #trailer, #form {
-        width: 99%;
+        width: 99%; /*Ajusta a largura*/
     }
 
 }
 @media screen and (max-width: 960px) {
     #slidernoticias {
-        height: 70vh;
+        height: 70vh; /*Ajusta a altura*/
     }
     #noticias {
         position: relative;
@@ -372,10 +374,10 @@ a {
 }
 @media screen and (max-width: 600px) {
     #slidernoticias {
-        height: 30vh;
+        height: 30vh; /*Ajusta a altura*/
     }
     #slide {
-        height: 40vh;
+        height: 40vh; /*Ajusta a altura*/
         background-size: 2%;
     }
     #noticias {
