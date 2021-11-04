@@ -92,3 +92,13 @@ nav {
         font-size: 5vw;
     }
   }
+  #menu ul{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+#menu ul li{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}

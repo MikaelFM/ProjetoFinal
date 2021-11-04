@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personagens | Avengers</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../css/navbar/style.css">
-    <script src="../scripts/navbar/script.js"></script>
-    <link rel="stylesheet" href="../css/personagens/style.css">
+    <!-- Link do Css Slick (Slider) -->
+    <!-- Link do JS do Slick (Slider) -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- Google Icons -->
+    <link rel="stylesheet" href="../css/navbar/style.css"> <!-- css da navbar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><!-- Jquery -->
+    <script src="../scripts/navbar/script.js"></script><!-- js da navbar -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="../css/personagens/style.css"><!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../scripts/personagens/script.js"></script>
 </head>
-<body onload="tamdiv()">
+
+<body>
     <header>
         <nav id="navbar">
             <span class="material-icons" id="hamburguer" onclick="menu()">menu</span>
@@ -33,36 +43,58 @@
         <div id="blocogrande">
             <h1 id="title1">Vingadores</h1>
             <li class="material-icons icone"></li>
-                <ul id="bloco">
-                    <li>
-                        <div class="shape" id="before"></div>
-                    </li>
-                    <li>
-                        <div class="shape square to-bevel" id="personagem1"></div>
-                    </li>
-                    <li>
-                        <div class="shape square to-bevel" id="personagem2"></div>
-                    </li>
-                    <li>
-                        <div class="shape square to-bevel" id="personagem3"></div>
-                    </li>
-                    <li>
-                        <div class="shape square to-bevel" id="personagem4"></div>
-                    </li>
-                    <li>
-                        <div class="shape square to-bevel" id="personagem5"></div>
-                    </li>
-                    <li>
-                        <div class="shape square to-bevel" id="personagem6"></div>
-                    </li>
-                    <li>
-                        <div class="shape" id="next"></div>
-                    </li>
-                </ul>
-            <div id="galeria">
-
+            <div id="bloco" class="slidere">
+                <div class="shape square to-bevel slide" onclick="personagem(0)">
+                    <div class="shape-menor square to-bevel slide" id="personagem0">
+                    </div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(1)">
+                    <div class="shape-menor square to-bevel slide" id="personagem1"></div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(2)">
+                    <div class="shape-menor square to-bevel slide" id="personagem2"></div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(3)">
+                    <div class="shape-menor square to-bevel slide" id="personagem3"></div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(4)">
+                    <div class="shape-menor square to-bevel slide" id="personagem4"></div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(5)">
+                    <div class="shape-menor square to-bevel slide" id="personagem5"></div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(6)">
+                    <div class="shape-menor square to-bevel slide" id="personagem6"></div>
+                </div>
+                <div class="shape square to-bevel slide" onclick="personagem(7)">
+                    <div class="shape-menor square to-bevel slide" id="personagem7"></div>
+                </div>
+            </div>
+        </div>
+        <div id="galeria">
+            <div id="desc">
+                <h1 id="nomepersonagem">THOR</h1>
+                <p id="descricao">Filho de Odin e Deus do Trovão, empunha o martelo encantado Mjolnir. Achou um segundo
+                    lar na Terra junto dos Avengers.</p>
+            </div>
+            <div id="img">
             </div>
         </div>
     </section>
+    <div id="acessibilidade">
+        <ul>
+            <li onclick="grande()">A+</li>
+            <li onclick="pequeno()">A-</li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.slidere').slick({
+            infinite: false,
+            slidesToShow: 6,
+            slidesToScroll: 1
+        });
+    </script>
 </body>
+
 </html>

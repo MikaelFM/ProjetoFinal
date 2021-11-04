@@ -1894,3 +1894,13 @@ body{
     background-color: rgb(10, 10, 10);
     overflow-x: hidden; /*retira a barra lateral*/
 }
+#menu ul{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
+#menu ul li{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+}
