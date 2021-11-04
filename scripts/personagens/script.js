@@ -1,4 +1,4 @@
-
+var acessibilidade = ''
 function personagem(x) {
     const img = document.getElementById('img')
     const personage = document.getElementById('nomepersonagem')
@@ -52,13 +52,27 @@ function personagem(x) {
 }
 function grande(){
     var el = document.querySelectorAll('p')
-    el.forEach(element => {
-        element.style.fontSize = '2vw';
-      });
-  }
+    if (acessibilidade == 'pequeno'){
+        el.forEach(element => {
+            element.style.removeProperty('font-size');
+          });
+      } else {
+        el.forEach(element => {
+            element.style.fontSize = '2vw';
+          });
+      }
+      acessibilidade = 'grande'
+    }
   function pequeno(){
     var el = document.querySelectorAll('p')
-    el.forEach(element => {
-        element.style.removeProperty('fontSize');
-      });
+      if (acessibilidade == 'grande'){
+        el.forEach(element => {
+            element.style.removeProperty('font-size');
+          });
+      } else {
+        el.forEach(element => {
+            element.style.fontSize = '0.8vw';
+          });
+      }
+      acessibilidade = 'pequeno'
   }
