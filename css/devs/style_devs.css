@@ -27,10 +27,6 @@ body {
     z-index: 3; /*Coloca ele na camada 3*/
 }
 
-#menu ul li {
-    padding-left: 0px; /*Posiciona melhor nossos itens*/
-}
-
 header {
     width: 98vw; /*Largura do cabeçalho*/
 }
