@@ -7,21 +7,28 @@
 body {
     overflow-x: hidden; /*Impede o scroll de nossa página no eixo x*/
     background-color: rgb(12, 12, 12); /*Ajusta a cor de nosso fundo para representar o espaço*/
+    margin: 0px;
 }
 
 .logoavengers {
     position: absolute !important; /*Posição com relação ao body*/
     height: 15vh !important; /*Altura*/
-    top: 0 !important; /*Distância do topo*/
-    bottom: 0 !important; /*Distância da rodapé*/
-    right: 0 !important; /*Distância da direita*/
-    left: 0 !important; /*Distância da esquerda*/
+    top: 0; /*Distância do topo*/
+    bottom: 0; /*Distância da rodapé*/
+    right: 0; /*Distância da direita*/
+    left: 0; /*Distância da esquerda*/
     margin: auto !important; /*Margem automática*/
     transition: left 1.8s !important; /*Transição para ficar mais suave*/
 }
 
 #navbar, #menu {
+    position: fixed;
+    top: 0vh; /*Distância do topo*/
     z-index: 3; /*Coloca ele na camada 3*/
+}
+
+#menu ul li {
+    padding-left: 0px; /*Posiciona melhor nossos itens*/
 }
 
 header {
