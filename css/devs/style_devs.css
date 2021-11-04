@@ -1,94 +1,272 @@
-@import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962');
+@import url('http://fonts.cdnfonts.com/css/lovelo?styles=25962'); /*Importa uma fonte*/
+
+* {
+    user-select: none; /*Não permite que o usuário selecione textos na tela*/
+}
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; /*Impede o scroll de nossa página no eixo x*/
+    background-color: rgb(12, 12, 12); /*Ajusta a cor de nosso fundo para representar o espaço*/
+    margin: 0px;
+}
+
+.logoavengers {
+    position: absolute !important; /*Posição com relação ao body*/
+    height: 15vh !important; /*Altura*/
+    top: 0; /*Distância do topo*/
+    bottom: 0; /*Distância da rodapé*/
+    right: 0; /*Distância da direita*/
+    left: 0; /*Distância da esquerda*/
+    margin: auto !important; /*Margem automática*/
+    transition: left 1.8s !important; /*Transição para ficar mais suave*/
+}
+
+#navbar, #menu {
+    position: fixed;
+    top: 0vh; /*Distância do topo*/
+    z-index: 3; /*Coloca ele na camada 3*/
+}
+
+#menu ul li {
+    padding-left: 0px; /*Posiciona melhor nossos itens*/
+}
+
+header {
+    width: 98vw; /*Largura do cabeçalho*/
 }
 
 section#intro {
-    position: relative;
-    padding: 18vh 2vh 5vh 2vh;
-    width: 100%;
-    z-index: -1;
-    background-image: linear-gradient(to right bottom, rgb(0, 0, 255) 0.4%, rgb(214, 104, 104) 30%, rgb(122, 29, 29));
+    position: relative; /*Posição relativa ao elemento pai*/
+    padding: 20vh 2vh 8vh 2vh; /*Ajusta o padding*/
+    width: 100%; /*Largura do cabeçalho*/
+    z-index: -1; /*Coloca ele na camada -1*/
+    background-image: linear-gradient(to right bottom, rgb(0, 0, 255) 0.4%, rgb(214, 104, 104) 30%, rgb(122, 29, 29)); /*Faz um degradê*/
 }
 
 h1, h2, p {
-    position: relative;
-    left: 4vw;
+    position: relative; /*Posição relativa ao elemento pai*/
+    left: 4vw; /*Distância da esquerda do movimento pai*/
 }
 
 h1, h2 {
-    font-family: 'Lovelo', sans-serif;
-    text-shadow: 1px 1px 5px rgb(255, 255, 255);
-    color: rgb(0, 0, 0); 
+    font-family: 'Lovelo', sans-serif; /*Adiciona possíveis fontes para nosso texto*/
+    text-shadow: 1px 1px 5px rgb(255, 255, 255); /*Coloca uma sombra ao redor de nosso texto*/
+    color: rgb(0, 0, 0); /*Cor do nosso texto*/ 
 }
 
 h1 {
-    font-size: 5vh;
+    font-size: 5vh; /*Tamanho da fonte do nosso título h1*/
 }
 
 h2 {
-    font-size: 4vh;
+    font-size: 4vh; /*Tamanho da fonte do nosso título h2*/
 }
 
 span#spanUm {
-    font-size: 4.5vh;
+    font-size: 4.5vh; /*Tamanho da fonte do nosso span*/
 }
 
 span#spanUm, span#spanDois {
-    color:rgb(46, 0, 83);
+    color:rgb(46, 0, 83); /*Cor do nosso texto*/ 
 }
 
-p {
-    font-size: 2.6vh;
-    margin: 10px 100px auto auto;
-    text-indent: 5.5vw;
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p#inicial {
+    font-size: 3vh;  /*Cor do nosso texto*/ 
+    margin: 10px 10vw auto auto; /*Margens do nosso parágrafo*/
+    text-indent: 5.5vw; /*Recuo da primeira linha do parágrafo*/
+    text-align: justify; /*Texto justificado*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Adiciona possíveis fontes para nosso texto*/
 }
 
-section#fotos {
-    background-color: black;
-    width: 100%;
-    padding: 3vw;
+section#fotografias, section#pq {
+    width: 100%; /*Largura do cabeçalho*/
+    padding: 3vw; /*Ajusta o nosos padding*/
 }
 
-section#fotos h1 {
-    color:rgb(255, 255, 255);
-    text-shadow: 1px 1px 5px rgb(65, 44, 255);
+section#fotografias h1 {
+    color:rgb(255, 255, 255); /*Cor do nosso título*/
+    text-shadow: 1px 1px 5px rgb(65, 44, 255); /*Coloca uma sombra ao redor de nosso texto*/
 }
 
 div#fotos {
-    display: flex;
-    text-align: center;
-    align-items: center;
+    align-items: center; /*Alinhamento do conteúdo de nossa div*/
+    margin: auto auto auto -3.6vw;
+}
+
+div#fotos, div#pq_div {
+    position: relative; /*Posição relativa ao elemento pai*/
+    top: 5vh; /*Distância do topo do elemento pai*/
+    text-align: center; /*Alinhamento do conteúdo de nossa div*/
 }
 
 div#Enzo, div#Mateus, div#Mikael {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 7vh;
-    text-align: center;
-    text-shadow: 1px 1px 5px rgb(169, 34, 196);
-    color: rgb(255, 255, 255);   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Adiciona possíveis fontes para nosso texto*/
+    text-align: center; /*Alinhamento do conteúdo de nossa div*/
+    color: rgb(255, 255, 255); /*Cor da nossa fonte*/
 }
 
 div#Enzo span, div#Mateus span, div#Mikael span {
-    text-align: center;
-    position: relative;
-    top: 7vh; /*Ajustar na media*/
-    left: -2vw; /*Ajustar na media*/
+    z-index: 1; /*Coloca na camada 1*/
+    text-align: center; /*Alinhamento do conteúdo de nossa div*/
+    position: relative; /*Posição relativa ao elemento pai*/
+    text-shadow: 1px 1px 5px rgb(169, 34, 196); /*Coloca uma sombra ao redor de nosso texto*/
 }
 
-img {
-    position: relative;
-    top: -17vh;
-    width: 25vw;
-    margin: 3vh 3vw auto auto;
-    transition: transform 1s, opacity 1.2s, filter 1s;
+img.rapazes {
+    z-index: 2; /*Coloca na camada 2*/
+    position: relative; /*Posição relativa ao elemento pai*/
+    margin: 3vw 3vh auto 1.5vw; /*Margens do nosso parágrafo*/
+    transition: transform 1s, opacity 1.2s, filter 1s; /*Deixa a transição destes elementos mais suave*/
 }
 
-img:hover {
-    transform: scale(1.2);
-    opacity: 0;
-    filter: blur(3px);
+img.rapazes:hover {
+    transform: scale(1.2); /*Aumenta a escala da imagem*/
+    opacity: 0; /*Tira a opacidade dela*/
+    filter: blur(3px) grayscale(0.5); /*Deixa ela borrada e cinza*/
+}
+
+section#pq {
+    background-image: linear-gradient(to right bottom, #33175C 0.4%, #89455F 30%, #522FAC); /*Fundo da nossa section sobre o tema*/
+    padding-bottom: 20vh; /*Padding da parte de baixo*/
+}
+
+div#pq_div {
+    margin: auto auto auto -7vw; /*Ajusta nossa margin do nosso elemento*/
+}
+
+p.pq_p {
+    font-size: 3vh; /*Tamanho da fonte*/
+    text-align: left; /*Alinhamento do texto*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Possíveis fontes*/
+}
+
+span.title { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*Possíveis fontes*/
+    font-size: 5vh; /*Tamanho da fonte*/
+    color:#BB9AB8; /*Cor da fonte*/
+}
+
+footer {
+    width: 100%; /*Tamanho do rodapé*/
+    height: 7vh; /*Altura do rodapé*/
+    display: flex; /*Display do rodapé (fica em linha)*/
+    color: white; /*Cor da fonte do rodapé*/
+    align-items: center; /*Alinhamento do texto no centro*/
+}
+
+footer div#rodape {
+    margin: auto; /*Centraliza nosso texto do rodapé*/
+    text-align: center; /*Alinhamento do texto no centro*/
+}
+
+@media (min-width: 1200px) {
+    
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 20vh; /*Distância do topo*/
+        font-size: 14vh; /*Tamanho da fonte*/
+    }
+
+    div#Enzo span, div#Mikael span  {
+        left: -0.5vw; /*Distância da esquerda do elemento*/
+    }
+
+    div#Mateus span {
+        left: 0.5vw; /*Distância da esquerda do elemento*/
+    }
+
+    img.rapazes {
+        top: -29vh; /*Distância do topo*/
+        width: 25vw; /*Largura do elemento*/
+    }
+
+    div#fotos, div#pq_div {
+        display: flex; /*Display em linha*/
+    }
+
+    p.pq_p {
+        width: 28vw; /*Largura do elemento*/
+        margin: 10px 2vw auto 3vw; /*Margem do nosso elemento*/
+    }
+    
+}
+
+@media (min-width: 773px) and (max-width: 1199px) {
+
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 11vh; /*Tamanho do topo*/
+        left: -2vw; /*Distância da esquerda do elemento*/
+        font-size: 8vh; /*Tamanho da fonte*/
+    }
+
+    
+    div#Enzo span, div#Mikael span  {
+        left: -0.5vw; /*Distância da esquerda do elemento*/
+    }
+
+    div#Mateus span {
+        left: 0.5vw; /*Distância da esquerda do elemento*/
+    }
+
+    img.rapazes {
+        top: -17vh;
+        width: 25vw; /*Largura do elemento*/
+    }
+
+    div#fotos, div#pq_div {
+        display: flex; /*Display em linha*/
+    }
+
+    p.pq_p {
+        width: 28vw; /*Largura do elemento*/
+        margin: 10px 2vw auto 3vw; /*Margem do nosso elemento*/
+    }
+
+}
+
+@media (min-width: 521px) and (max-width: 772px) {
+
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 7vh; /*Tamanho do topo*/
+        left: -2vw; /*Distância da esquerda do elemento*/
+        font-size: 5vh; /*Tamanho da fonte*/
+    }
+
+    img.rapazes {
+        top: -10vh; /*Tamanho do topo*/
+        width: 25vw; /*Largura do elemento*/
+    }
+
+    div#fotos, div#pq_div {
+        display: flex; /*Display em linha*/
+    }
+
+    p.pq_p {
+        width: 28vw; /*Largura do elemento*/
+        margin: 10px 2vw auto 3vw; /*Margem do nosso elemento*/
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    div#Enzo span, div#Mateus span, div#Mikael span {
+        top: 7vh; /*Distância do topo*/
+        left: -2vw; /*Distância da esquerda do elemento*/
+        font-size: 6vh; /*Tamanho da fonte*/
+        display: block; /*Display em bloco (cada elemento em uma linha)*/  
+    }
+
+    img.rapazes {
+        top: -17vh; /*Distância do topo*/
+        width: 60vw; /*Largura do elemento*/
+    }
+
+    div#fotos, div#pq_div {
+        display: block; /*Display em bloco (cada elemento em uma linha)*/
+    }
+
+    p.pq_p {
+        width: 80vw; /*Largura do elemento*/
+        margin: 10px 2vw auto 9vw; /*Margem do nosso elemento*/
+    }
 }

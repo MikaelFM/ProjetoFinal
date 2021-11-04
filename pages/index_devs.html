@@ -4,41 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../css/navbar/style.css">
-    <link rel="stylesheet" href="../css/devs/style_devs.css">
-    <script src="../scripts/navbar/script.js"></script>
-    <title>Desenvolvedores</title>
+    <link rel="icon" href="../img/devs/icone.png"> <!--Define nosso ícone-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Chama um style-->
+    <link rel="stylesheet" href="../css/navbar/style.css"> <!--Chama o style da navbar-->
+    <script src="../scripts/navbar/script.js"></script> <!--Chama as funções da navbar-->
+    <link rel="stylesheet" href="../css/devs/style_devs.css"> <!--Chama o style desta página--> 
+    <title>Desenvolvedores</title> <!--Título da página-->
 </head>
-<body onload="tamdiv()">
+<body onload="tamdiv()"> <!--Ajusta a header quando a página carrega-->
     <header>
-        <nav id="navbar">
+        <nav id="navbar"> <!--Ajusta a navbar-->
             <span class="material-icons" id="hamburguer" onclick="menu()">menu</span>
-            <img id="logoavengers" class="logoavengers" src="../img/navbar/logoavengers.png" alt="">
+            <img id="logoavengers" class="logoavengers" src="../img/navbar/logoavengers.png" alt="Logo Anvengers">
         </nav>
-        <div id="menu">
+        <div id="menu"> <!--Menu-->
             <span class="material-icons" id="close" onclick="fechar()">close</span>
             <ul>
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="#" class="link">Notícias</a></li>
-                <li><a href="#" class="link">Personagens</a></li>
-                <li><a href="#" class="link">Avengers Invasion</a></li>
-                <li><a href="#" class="link">Sobre os Devs</a></li>
+                <li><a href="../Index.html" class="link">Home</a></li>
+                <li><a href="../pages/index_noticias.html" class="link">Notícias</a></li>
+                <li><a href="../pages/index_personagens.html" class="link">Personagens</a></li>
+                <li><a href="../pages/index_AvengerInvaders.html" class="link">Avengers Invasion</a></li>
+                <li><a href="../pages/index_devs.html" class="link">Sobre os Devs</a></li>
             </ul>
         </div>
     </header>
-    <section id="intro">
-        <h1>Sobre os desenvolvedores</h1>
-        <h2>(Desen<span id="spanUm">V</span><span id="spanDois">ingadores</span>)</h2>
-        <p>3 Vingadores resolveram em um belo dia deixar suas lutas de lados e se juntarem para desenvolver um site. Enzo, com seus poderes de Design e Organização, Mikael com sua experiencia a mais em JavaScript e Html. E Mateus Matana, o vingador aprendiz prodigio com seu perfeccionismo. Eles juntam suas habilidades e criam o site sobre os seus outros companheiros vingadores. O resultado é o que estamos vendo nessa presepada...</p>
+    <section id="intro"> <!--Primeira section-->
+        <h1>Sobre os desenvolvedores</h1> <!--Título de primeiro nível-->
+        <h2>(Desen<span id="spanUm">V</span><span id="spanDois">ingadores</span>)</h2> <!--Sub-título-->
+        <p id="inicial">3 Vingadores resolveram em um belo dia deixar suas lutas de lados e se juntarem para desenvolver um site. Enzo, com seus poderes de Design e Organização, Mikael com sua experiencia a mais em JavaScript e Html. E Mateus Matana, o Vingador aprendiz prodigio com seu perfeccionismo. Eles juntam suas habilidades e criam o site sobre os seus outros companheiros Vingadores (os da Marvel, menos conhecidos). O resultado é o que estamos vendo nessa presepada...</p>
     </section>
-    <section id="fotos">
-        <h1>São eles...</h1>
+    <section id="fotografias"> <!--Section das fotos-->
+        <h1>São eles...</h1> <!--Título de primeiro nível-->
         <div id="fotos">
-            <div id="Enzo"><span>Enzo<br>Zardo</span><img src="../img/devs/Enzo.jpg" alt="Desenvolvedor Enzo"></div>
-            <div id="Mateus"><span>Mateus<br>Matana</span><img src="../img/devs/Matana.jpg" alt="Desenvolvedor Mateus Matana"></div>
-            <div id="Mikael"><span>Mikael<br>Moreira</span><img src="../img/devs/Mikael.jpg" alt="Desenvolvedor Mikael"></div>
+            <div id="Enzo"><span>Enzo<br>Zardo</span><img class="rapazes" src="../img/devs/Enzo.jpg"  alt="Desenvolvedor Enzo"></div> <!--Imagem Enzo-->
+            <div id="Mateus"><span>Mateus<br>Matana</span><img class="rapazes"  src="../img/devs/Matana.jpg" alt="Desenvolvedor Mateus Matana"></div> <!--Imagem Mateus-->
+            <div id="Mikael"><span>Mikael<br>Moreira</span><img class="rapazes"  src="../img/devs/Mikael.jpg" alt="Desenvolvedor Mikael"></div> <!--Imagem Mikael-->
         </div>
     </section>
+    <section id="pq"> <!--Section sobre nosso tema-->
+        <h1>Por que escolhemos este tema?</h1> <!--Título de primeiro nível-->
+        <div id="pq_div">
+            <div id="pqEnzo"><p class="pq_p"><span class="title">Enzo:</span><br>Meu voto foi principalmente pela fotografia dos filmes, pois sabia que tanto a paleta de cores quanto as cenas dos filmes e posters iriam ajudar a fazermos um site bonito e com boas interações.</p></div> <!--Motivos Enzo-->
+            <div id="pqMateus"><p class="pq_p"><span class="title">Mateus:</span><br>Dei a ideia de fazermos com este tema pois gosto muito dos filmes da Marvel em geral, acho muito legal o panejamento deles para fazer todos os filmes e tudo aquilo que foi feito para que todos se unissem em um final épico.</p></div> <!--Motivos Matana-->
+            <div id="pqMikael"><p class="pq_p"><span class="title">Mikael:</span><br>Escolhi esta opção pois adoro filmes de super-heróis do geral, sinto que sempre trazem histórias emocionantes e que tem um final aconchegante. Apesar de muitos não gostarem, adoro os clichês deste gênero.</p></div> <!--Motivos Mikael-->
+        </div>
+    </section>
+    <footer class="rodape">
+        <div id="rodape">Todos os direitos reservados Zardo, Moreira e Matana LTDA. &#174;</div> <!--Rodapé-->
+    </footer>
 </body>
 </html>

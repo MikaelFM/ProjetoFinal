@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=PT+Sans+Caption&family=Roboto&family=Sarabun:wght@500&display=swap');
+/*importa as fontes*/
 
 
 .imgum{
@@ -29,42 +30,53 @@
     height: 75px;
 }
 
+.capa, .capa_desktop{
+    margin-top: 15vh;
+    width: 100vw;
+}
+/*ajusta o tamanho das imagens*/
+
+
 @media (min-width: 826px) and (max-width: 1100px){
 
+    .capa_desktop{
+        display: none;
+    }
+
     .chamada{
-        background-image: url('../../img/index/Background-opacity10-avengers.png');
-        padding-bottom: 225px;
-        display: block;
+        background-image: url('../../img/index/Background-opacity10-avengers.png'); /*coloca uma imagem como fundo*/
+        padding-bottom: 225px; /*configura o tamanho da borda interior*/
+        display: block; /*faz o elemento preencher toda a linha*/
     }
 
     .curiosidades{
-        text-align: center;
-        color: rgb(197, 14, 14);
-        padding-top: 30px;
-        font-size: 40px;
+        text-align: center; /*alinha o texto no centro*/
+        color: rgb(197, 14, 14); /*determina a cor do texto*/
+        padding-top: 30px; /*determina a borda interior do topo*/
+        font-size: 40px; /*determina o tamanho da fonte*/
     }
     
     .text_curiosidades{
-        width: 75vw;
-        margin:0 auto;
-        font-size: 20px;
+        width: 75vw; /*determina a largura do elemento selecionado*/
+        margin:0 auto; /*determina o alinhamento da margem*/
+        font-size: 20px; 
         text-align: center;
-        text-align: justify;
+        text-align: justify; /*justifica o texto*/
     }
 
     .barra_diagonal{
-        background-color: red;
+        background-color: red; /*determina a cor do fundo*/
         color: red;
         display: block;
-        margin-top: -75px;
-        transform: skewY(-2deg);
-        opacity: 60%;
-        padding-bottom: 35px;
-        padding-top: 30px;
+        margin-top: -75px; /*defina a margem do topo*/
+        transform: skewY(-2deg); /*cria uma barra na diagonal*/
+        opacity: 60%; /*determina a opacidade*/
+        padding-bottom: 35px; /*determina a margem interior da parte inferior*/
+        padding-top: 30px; /*determina a margem interior do topo*/
     }
 
     .ajuste_barra_diagonal{
-        background-color: rgb(10, 10, 10);
+        background-color: rgb(10, 10, 10); /*determina a cor do fundo*/
         transform: skewY(-2deg);
         padding-top: 20px;
         padding-bottom: 55px;
@@ -81,15 +93,15 @@
     
     .figure1{
         width: 40vw;
-        float: left;
+        float: left; /*deixa o item determinado como flutuante para a esquerda*/
     }
 
     .imgum{
         margin:0 auto;
-        float: right;
-        margin-right: 6vw;
-        transform: scale(1.1);
-        padding-bottom: 50px;
+        float: right; /*deixa o item determinado como flutuante para a direita*/
+        margin-right: 6vw; /*determina a margem da direita*/
+        transform: scale(1.1); /*tranforma a escala*/
+        padding-bottom: 50px; 
         margin-top: 25px;
     }
 
@@ -98,25 +110,24 @@
         float: right;
         margin-right: 4vw;
         transform: scale(1.35);
-	    transition: 0.3s;
+	    transition: 0.3s; /*determina o tempo de transição do hover*/
         padding-bottom: 50px;
         margin-top: 25px;
     }
-
 
     .sinopse{
         color: white;
         text-align: center;
         margin-top: -70px;
         font-size: 25px;
-        display: inline-block;
+        display: inline-block; /*faz um bloco em linha*/
     }
 
     .text_sinopse{
         text-align: justify;
         width: 85%;
         margin:0 auto;
-        line-height: 30px;
+        line-height: 30px; /*determina o distanciamento das linhas*/
         color: white;
         margin-bottom: 12VW;
         font-size: 18px;
@@ -463,6 +474,10 @@
         padding-bottom: 55px;
         margin-top:-25px;
     }
+
+    .simbolo_rodape_img{
+        display: none; /*deixa invisivel o item selecionado*/
+    }
 }
 
     
@@ -475,6 +490,11 @@
 
 
 @media (min-width: 520px) and (max-width: 825px){
+
+    .capa_desktop{
+        display: none;
+    }
+
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 200px;
@@ -872,6 +892,10 @@
         padding-top: 40px;
         margin-top: -10px;
     }
+
+    .simbolo_rodape_img{
+        display: none;
+    }
 }
 
     /*-----------------------------------*/
@@ -882,6 +906,11 @@
 
 
 @media (min-width: 1100px){
+
+    .capa{
+        display: none;
+    }
+
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 275px;
@@ -1309,6 +1338,10 @@
         padding-bottom: 75px;
         margin-top:-25px;
     }
+
+    .simbolo_rodape_img{
+        display: none;
+    }
 }
 
 
@@ -1326,13 +1359,17 @@
 .sub_avengers, .sub_avengers2, .sub_avengers3, .sub_avengers4{
     font-size: 44px;
     padding-bottom: -30px;
-    text-shadow: 3px 5px 3px black;
+    text-shadow: 3px 5px 3px black; /*determina a sombra do texto*/
 }
 
 .curiosidades, .curiosidades2, .curiosidades3, .curiosidades4, .curiosidades5{
     font-size: 75px;
     text-shadow: 4px 5px 1px black;
-    font-weight: bold;
+    font-weight: bold; /*deixa o texto negrito*/
+}
+
+.curiosidades{
+    margin-top: 0;
 }
 
 .text_curiosidades, .text_curiosidades2, .text_curiosidades3, .text_curiosidades4, .text_curiosidades5{
@@ -1364,6 +1401,11 @@
 
 
 @media (max-width: 520px){
+
+    .capa_desktop{
+        display: none;
+    }
+
     .chamada{
         background-image: url('../../img/index/Background-opacity10-avengers.png');
         padding-bottom: 150px;
@@ -1420,6 +1462,7 @@
         display: block;
         transform: scale(1.25);
         transition: 0.3s;
+        margin-top: 65px;
         padding-bottom: 30px;
     }
 
@@ -1427,7 +1470,7 @@
         color: white;
         text-align: center;
         margin-top: 20px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .text_sinopse{
@@ -1438,7 +1481,6 @@
         display: block;
         line-height: 20px;
         color: white;
-        font-size: 20px;
     }
     
     /*-------------------------------------*/
@@ -1502,6 +1544,15 @@
     .img2{
         margin:0 auto;
         display: block;
+    }
+
+    .img2:hover{
+        margin:0 auto;
+        display: block;
+        transform: scale(1.25);
+        transition: 0.3s;
+        padding-bottom: 30px;
+        margin-top: 60px;
     }
 
     .sinopse2{
@@ -1584,6 +1635,15 @@
         display: block;
     }
 
+    .img3:hover{
+        margin:0 auto;
+        display: block;
+        transform: scale(1.25);
+        transition: 0.3s;
+        padding-bottom: 30px;
+        margin-top: 60px;
+    }
+
     .sinopse3{
         color: white;
         text-align: center;
@@ -1664,6 +1724,15 @@
         display: block;
     }
 
+    .img4:hover{
+        margin:0 auto;
+        display: block;
+        transform: scale(1.25);
+        transition: 0.3s;
+        padding-bottom: 30px;
+        margin-top: 60px;
+    }
+
     .sinopse4{
         color: white;
         text-align: center;
@@ -1726,15 +1795,24 @@
     .logo_rodape_img{
         display: none;
     }
+
+    .simbolo_rodape_img:hover{
+        transform: scale(1.25);
+        margin-left: 2vw;
+        margin-top: -2vw;
+        opacity: 75%;
+        transition: 0.4s;
+    }
 }
 
 h1 {
-    font-family: 'Lovelo', sans-serif;
+    font-family: 'Lovelo', sans-serif; /*determina a fonte*/
     font-weight: bold;
 }
 
 h2{
     font-family: 'Lovelo', sans-serif;
+    font-weight: bold;
 }
 
 h3{
@@ -1755,14 +1833,6 @@ p{
 
 .logo_rodape_img:hover{
     transform: scale(0.9);
-    opacity: 75%;
-    transition: 0.4s;
-}
-
-.simbolo_rodape_img:hover{
-    transform: scale(1.25);
-    margin-left: 2vw;
-    margin-top: -2vw;
     opacity: 75%;
     transition: 0.4s;
 }
@@ -1820,8 +1890,7 @@ p{
 /*------------------------------------*/
 
 body{
-    margin: 0;
+    margin: 0; /*determina a margem como zero*/
     background-color: rgb(10, 10, 10);
-    overflow-x: hidden;
+    overflow-x: hidden; /*retira a barra lateral*/
 }
-
