@@ -29,7 +29,6 @@ body::-webkit-scrollbar{
     height: 80%; /*Ajusta a altura*/
     max-height: 100%; /*Ajusta a altura máxima*/
     width: 60%; /*Ajusta a largura*/
-    margin: 0 auto;
 }
 #slider {
     background-size: cover;

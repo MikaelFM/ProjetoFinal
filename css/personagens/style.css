@@ -145,7 +145,7 @@ li[class="icon"] {
     margin: 5% 0 25% 0;
     height: 80%;
     position: relative;
-    width: 40%;
+    width: 50%;
     float: right;
     background-repeat: no-repeat;
     background-position: center;
@@ -218,7 +218,7 @@ li[class="icon"] {
     background-size: cover;
 }
 .personagem0 {
-    background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png');
+    background-image: url('../../img/personagens/wallpaper/pca.png');
     background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
 }
@@ -306,6 +306,15 @@ li[class="icon"] {
     margin-left: 0;
     padding-left: 0;
 }
+#notslider {
+    border: 1vh solid red;
+    border-top: none;
+    border-bottom: none;
+    padding-top: 15vw;
+    height: 850vh;
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
 @media screen and (max-width: 1344px) {
     #blocogrande {
         width: 100vw;
@@ -315,8 +324,44 @@ li[class="icon"] {
     }
 }
 @media screen and (max-width: 800px) {
+    #notslider {
+        display: block;
+    }
+    body {
+        overflow-y: hidden;
+    }
+    #noticias {
+        display: none;
+    }
     #bloco {
         width: 65%;   
+    }
+    #galeria {
+        height: 90vh;
+    }
+    .personagem0, .personagem1,.personagem2, .personagem3, .personagem4, .personagem5, .personagem6, .personagem7 {
+        width: 100%;
+        height: 50vh;
+        background-color: black;
+        margin: 0 auto;
+        padding-top: 15vw;
+    }
+    #desc {
+        width: 100%;
+        padding: 0;
+        height: 35vh;
+    }
+    #desc h1 {
+        font-size: 4vh;
+        margin-top: 5%;
+    }
+    #desc p {
+        font-size: 2.5vh;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .slick-next {
+        display: none;
     }
 }
 @media screen and (max-width: 500px) {
