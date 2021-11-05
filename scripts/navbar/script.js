@@ -10,6 +10,7 @@ const scroll = function () {
         padrao()
     }
 }
+/* diminui a largura da navbar e empurra o logo pro lado */
 const navbar = function () {
     let imagem = document.getElementById('logoavengers').style;
     let navbar = document.getElementById('navbar').style;
@@ -21,6 +22,7 @@ const navbar = function () {
 
 
 }
+/* faz com que a largura e a posição do logo voltem ao normal */
 const padrao = function () {
     let imagem = document.getElementById('logoavengers').style;
     let navbar = document.getElementById('navbar').style;
@@ -30,6 +32,7 @@ const padrao = function () {
     imagem.height = "15vh"
     ham.fontSize = "6vh";
 }
+/* abre o menu */
 const menu = function () {
     if (window.matchMedia("(max-width:1470px) and (min-width:611px)").matches) {
         navbar()
@@ -39,6 +42,7 @@ const menu = function () {
     menu.left = "0"
 
 }
+/* fecha o menu */
 const fechar = function () {
     scroll()
     var menu = document.getElementById('menu').style;
