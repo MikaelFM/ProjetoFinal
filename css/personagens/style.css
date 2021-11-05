@@ -49,7 +49,6 @@ nav {
     height: 20vw; /*Altura do elemento*/
 }
 #dir, #esq {
-<<<<<<< HEAD
     vertical-align: middle; /*Alinha no centro vertical do elemento*/
     height: 90%; /*Altura de nosso elemento*/
     color: white; /*Cor do texto*/
@@ -175,7 +174,6 @@ li[class="icon"] {
     background-repeat: no-repeat; /*Imagem do background não repete*/
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover; /*A imagem de fundo cobre o elemento*/
-=======
     vertical-align: middle; /* centraliza verticalmente */
     height: 90%; /* altura */
     color: white; /* cor da fonte */
@@ -301,7 +299,6 @@ li[class="icon"] {
     background-repeat: no-repeat; /* faz com que o fundo não repita */
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover; /* faz com que o fundo ocupe tode o elemento */
->>>>>>> 816b7e73d7d70f70272d274ee8e7d897dbe1f5bf
 }
 /* esses elementos não foram comentados, pois tem as mesmas propriedades do elemento #personagem0 */
 #personagem1{
@@ -347,13 +344,10 @@ li[class="icon"] {
     background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 .personagem0 {
-<<<<<<< HEAD
     background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png'); /*Da um plano de fundo ao nosso elemento*/
     background-repeat: no-repeat; /*Imagem do background não repete*/
-=======
     background-image: url('../../img/personagens/wallpaper/pca.png');
     background-repeat: no-repeat;
->>>>>>> 816b7e73d7d70f70272d274ee8e7d897dbe1f5bf
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
 }
 .personagem1 {
@@ -399,7 +393,6 @@ li[class="icon"] {
     background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 #acessibilidade {
-<<<<<<< HEAD
     position: absolute; /*Posição relativa ao body*/
     z-index: 1000; /*Coloca ele na camada 1000*/
     margin-top: 45vh; /*Margem do topo*/
@@ -445,8 +438,7 @@ li[class="icon"] {
         width: 100vw; /*Largura do elemento*/
     }
     #galeria {
-        width: 100vw; /*Largura do elemento*/
-=======
+    width: 100vw; /*Largura do elemento*/
     position: absolute; /* define a posicao como absoluta */
     z-index: 1000; /* traz o elemento para frente */
     margin-top: 45vh; /* define a margem do topo */
@@ -503,7 +495,6 @@ li[class="icon"] {
     }
     #galeria {
         width: 100vw; /*define a largura do elemento*/
->>>>>>> 816b7e73d7d70f70272d274ee8e7d897dbe1f5bf
     }
 }
 @media screen and (max-width: 800px) { /* a partir de resoluções menores que 880px essas propriedades (abaixo) serão aplica */
@@ -517,9 +508,7 @@ li[class="icon"] {
         display: none; /* faz com que o elemento suma */
     }
     #bloco {
-<<<<<<< HEAD
         width: 65%; /*Largura do elemento*/
-=======
         width: 65%;   /* define a largura do elemento */
     }
     #galeria {
@@ -548,16 +537,11 @@ li[class="icon"] {
     }
     .slick-next {
         display: none; /*deixa o elemento selecionado invisivel*/
->>>>>>> 816b7e73d7d70f70272d274ee8e7d897dbe1f5bf
     }
 }
 @media screen and (max-width: 500px) {/* a partir de resoluções menores que 50px essas propriedades (abaixo) serão aplica */
     #bloco {
-<<<<<<< HEAD
         width: 55%; /*Largura do elemento*/
-=======
-        width: 55%;  /*define a largura do elemento*/
->>>>>>> 816b7e73d7d70f70272d274ee8e7d897dbe1f5bf
-    }
-    
+    }   
+}
 }
