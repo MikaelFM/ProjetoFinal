@@ -32,15 +32,15 @@ body::-webkit-scrollbar{
     margin: 0 auto;/* centraliza */
 }
 #slider {
-    background-size: cover;
-    background-position: center;
-    border: 0.4vw solid rgb(211, 211, 211);   
-    overflow: hidden;
+    background-size: cover; /*faz com que o fundo ocupe todo elemento */
+    background-position: center; /*centraliza o fundo */
+    border: 0.4vw solid rgb(211, 211, 211);    /* define a borda, sua espessura, seu tipo, e sua cor, respectivamente */
+    overflow: hidden; /* retira barra de rolagem */
     height: 80%; /*Ajusta a altura*/
-    background-color: gray;
-    position: relative;
-    margin: 0 auto;
-    background-image: url('../../img/noticias/hulk_ironman.jpeg');
+    background-color: gray; /* cor de fundo */
+    position: relative; /* define a posição como relativa */
+    margin: 0 auto; /* centraliza */
+    background-image: url('../../img/noticias/hulk_ironman.jpeg'); /* imagem de fundo */
     transition-duration: 0.5s; /*Transição para deixar mudanças mais suaves*/
 }
 nav {
@@ -50,40 +50,40 @@ nav {
 }
 .logoavengers {
     height: 10vh; /*Ajusta a altura*/
-    left: calc(100vw - 32vh);
-    overflow: hidden;
+    left: calc(100vw - 32vh); /* distancia da esquerda */
+    overflow: hidden; /* retira as barras de rolagem */
 }
 #hamburguer {
-    font-size: 5vh;
+    font-size: 5vh; /* tamanho da fonte */
 }
 #noticias {
-    font-family: 'Gagalin', sans-serif;
-    margin-top: 10vh;
+    font-family: 'Gagalin', sans-serif; /* tipo da fonte */
+    margin-top: 10vh; /* margem superior */
 }
 #news, #newsblack {
     background-color: white;
     width: 99vw; /*Ajusta a largura*/
     height: 30vw; /*Ajusta a altura*/
-    border-bottom: solid 0.5vw red;
-    overflow: hidden;
+    border-bottom: solid 0.5vw red; /* define a borda, sua espessura, seu tipo, e sua cor, respectivamente */
+    overflow: hidden; /* retira as barras de rolagem */
 }
 #newsblack {
-    background-color: rgb(14, 13, 13);
-    overflow: hidden;
+    background-color: rgb(14, 13, 13); /* cor de fundo */
+    overflow: hidden; /* retira as barras de rolagem */
 }
 .latest {
-    font-family: 'Roboto', sans-serif;
-    padding: 2vw 4vw;
+    font-family: 'Roboto', sans-serif; /* tipo da fonte */
+    padding: 2vw 4vw; /* margem interna */
 }
 #noticia1 {
-    background-image: url('../../img/noticias/wakanda.jpg');
+    background-image: url('../../img/noticias/wakanda.jpg'); /* imagem de fundo do elemento*/
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
     background-size: cover; /*A imagem de fundo cobre o elemento*/
 }
 #noticia2 {
-    background-image: url('../../img/noticias/semvoltaparacasa.jpg');
+    background-image: url('../../img/noticias/semvoltaparacasa.jpg'); /* imagem de fundo */
     background-size: cover; /*A imagem de fundo cobre o elemento*/
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* faz com que o fundo do elemento não repita */
 }
 #imagemnew1{
     background-image: url('../../img/noticias/Loki.jpg');
@@ -110,24 +110,24 @@ nav {
     transform: scale(1.05); /*Gira o elemento*/
 }
 .latest {
-    font-size: 3vw;
+    font-size: 3vw; /* tamanho da fonte */
 }
 .imgnoticia {
-    transition-duration: 0.5s;
+    transition-duration: 0.5s; /* duração da transição */
     float: left; /*Coloca à esquerda*/
     margin-left: 3vw; /*Margem da esquerda*/
-    background-color: black;
-    position: relative;
+    background-color: black; /* cor de fundo */
+    position: relative; /* define a posição como relativa */
     height: 60%; /*Ajusta a altura*/
     width: 30%; /*Ajusta a largura*/
 }
 .desnews {
-    float: right;
+    float: right; /* faz com que o elemento flutue na direita */
     width: calc(94vw - 30%); /*Ajusta a largura*/
 }
 .newstitle{
-    font-weight: bold;
-    display: block;
+    font-weight: bold; /* negrito */
+    display: block; /*faz com qu o elemento adquira um display de bloco */
     width: 70%; /*Ajusta a largura*/
     font-family: "AwanZaman-Regular", sans-serif;/* tipo da fonte */
     font-size: 2.3vw; /* tamanho da fonte */
@@ -142,15 +142,15 @@ nav {
     width: 10vw; /*Ajusta a largura*/
     background-color: white; /* cor de fundo */
     border: 1px solid rgb(119, 119, 119); /* define as bordas como brancas, com 1px de espessura e na cor cinza */
-    padding: 0 5vw 0 5vw;
+    padding: 0 5vw 0 5vw; /* margem interna superior, da direita, inferior e da esquerda, respectivamente */
 }
 .whitefont {
-    color: white
+    color: white /* cor da fonte */
 }
 #newsblack .botao {
-    color: white;
-    background-color: rgb(14, 13, 13);
-    border: 1px solid rgb(192, 192, 192)
+    color: white; /* cor da fonte */
+    background-color: rgb(14, 13, 13); /* cor de fundo */
+    border: 1px solid rgb(192, 192, 192) /* define a borda, sua espessura, seu tipo, e sua cor, respectivamente */
 }
 .espacotop {
     margin-top: 6%;
@@ -173,63 +173,63 @@ nav {
 .noticia {
     width: 25%; /*Ajusta a largura*/
     height: 80%; /*Ajusta a altura*/
-    margin: 1%;
+    margin: 1%;/* margem */
 }
 .noticia h1 {
-    margin-top: 0.5vw;
-    color: rgb(107, 107, 107);
+    margin-top: 0.5vw;/* margem superior */
+    color: rgb(107, 107, 107); /* cor da fonte */
 }
 .noticia h1, .noticia p {
-    font-size: 1vw;
-    font-weight: bold   ;
+    font-size: 1vw; /* tamanho da fonte */
+    font-weight: bold ; /* negrito */
 }
 #trailer {
     height: 40vw; /*Ajusta a altura*/
-    background-color: #D40000;
-    display: flex;
-    flex-direction: row;
+    background-color: #D40000; /* cor de fundo */
+    display: flex; /* define o display como flex */
+    flex-direction: row; /* define a direção do flex para vertical */
     width: 99vw; /*Ajusta a largura*/
-    overflow-x: hidden;
+    overflow-x: hidden; /* retira as barras de rolagem */
 }
 #um, #dois{
     width: 50%; /*Ajusta a largura*/
 }
 #trailer #um img {
-    margin: 0 7vw;
-    padding: 1vw 2vw;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    margin: 0 7vw; /*margem (superior/inferior) e (direita/esquerda) respectivamente */
+    padding: 1vw 2vw; /*margem interna (superior/inferior) e (direita/esquerda) respectivamente */
+    position: relative; /* define a posição como relativa ao elemento pai */
+    top: 50%; /* distancia do topo */
+    transform: translateY(-50%); /* transformação vertical */
     height: 80%; /*Ajusta a altura*/
 }
 #video {
     height: 70%; /*Ajusta a altura*/
     width: 100%; /*Ajusta a largura*/
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-right: 2%;
-    padding-right: 3vw;
+    position: relative; /* posição relativa ao elemento pai */
+    top: 50%; /* distancia do topo */
+    transform: translateY(-50%); /* transformação vertical */
+    margin-right: 2%; /* margem direita */
+    padding-right: 3vw; /* margem interior direita */
 }
 
 #forma1, #forma6 {
     width: 800%; /*Ajusta a largura*/
-    background-color: black;
+    background-color: black; /* cor de fundo */
     height: 100%; /*Ajusta a altura*/
 }
 .forma2 {
-    margin-left: 10%;
+    margin-left: 10%;/* margem esquerda */
     width: 1000%; /*Ajusta a largura*/
     height: 100%; /*Ajusta a altura*/
     background: #000000;
-    -webkit-transform: skew(-20deg);
+    -webkit-transform: skew(-20deg); /*tranforma na forma que queremos*/
    -moz-transform: skew(-20deg);
      -o-transform: skew(-20deg);
 }
 #formas, #formas2 {
-    position: absolute;
+    position: absolute; /* posição absoluta */
     height: 3vw; /*Ajusta a altura*/
-    display: flex;
+    display: flex; 
     flex-direction: row;
     width: 99vw; /*Ajusta a largura*/
 }
@@ -263,100 +263,100 @@ nav {
 }
 ul {
     width: 90%; /*Ajusta a largura*/
-    margin: 0 auto;
+    margin: 0 auto; /* propriedades da margem */
 }
 ul li {
-    display: inline-block;
-    padding: 0.5vw 0.5vw;
-    text-align: center;
+    display: inline-block; /* define o display como bloco em linha */
+    padding: 0.5vw; /* margem interna */
+    text-align: center;/* alinha o texto no centro */
 }
 ul li input {
-    background-color: rgb(29, 29, 29);
-    border: none;
-    border-radius: 2px;
+    background-color: rgb(29, 29, 29); /* cor de fundo */
+    border: none; /* retira a borda */
+    border-radius: 2px; /* arredondamento da borda */
     width: 40.2vw; /*Ajusta a largura*/
     height: 4vw; /*Ajusta a altura*/
 }
 textarea {
     height: 12vw; /*Ajusta a altura*/
-    border-radius: 2px;
-    border: none;
+    border-radius: 2px; /* arredondamento da borda */
+    border: none; /* retira a borda */
     width: 81.7vw; /*Ajusta a largura*/
-    margin: 0 auto;
-    background-color: rgb(29, 29, 29);
-    padding: 1vw;
+    margin: 0 auto; /* centraliza o elememnto */
+    background-color: rgb(29, 29, 29); /* cor de fundo */
+    padding: 1vw; /* margem interna */
 }
 #checkbox {
     width: 2vw; /*Ajusta a largura*/
-    padding-left: 10vw;
-    margin-right: 0.1vw;
+    padding-left: 10vw; /* margem interna esquerda*/
+    margin-right: 0.1vw; /* margem externa direita */
     height: 2vh; /*Ajusta a altura*/
 }
 label {
-    color: rgb(184, 184, 184);
-    font-size: 1.2vw;
+    color: rgb(184, 184, 184); /* cor da fonte */
+    font-size: 1.2vw; /* tamanho da fonte */
 }
 .button {
-    font-size: 1.2vw;
+    font-size: 1.2vw; /* tamanho da fonte */
     width: 10vw; /*Ajusta a largura*/
-    color: rgb(192, 192, 192);
+    color: rgb(192, 192, 192); /* cor da fonte */
 }
 .button:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0); /* cor de fundo */
 }
 input::placeholder, textarea::placeholder, input[type="date"], input[type="password"]::placeholder{
-    font-size: 1.2vw;
-    color: rgb(184, 184, 184)
+    font-size: 1.2vw; /* tamanho da fonte */
+    color: rgb(184, 184, 184) /* cor da fonte */
 }
 input:not(#cancelar, #submit), textarea{
-    color: rgb(184, 184, 184);
-    font-size: 1.2vw;
-    padding-left: 1vw;
+    color: rgb(184, 184, 184); /* cor da fonte */
+    font-size: 1.2vw; /* tamanho da fonte */
+    padding-left: 1vw; /* margem interna esquerda */
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
-    cursor: pointer;
-    filter: invert(1) brightness(80%) sepia(10%) saturate(100%) hue-rotate(20deg);
-    margin-right: 1vw;
+    cursor: pointer; /* tipo de cursor */
+    filter: invert(1) brightness(80%) sepia(10%) saturate(100%) hue-rotate(20deg); /* muda a cor do calendariozinho */
+    margin-right: 1vw; /* margem externa direita */
   }
 carousel-inner img {
     width: 80vw; /*Ajusta a largura*/
 }
 .w-100 {
     border-radius: 5px;
-    border: 8px solid rgb(233, 233, 233);
+    border: 8px solid rgb(233, 233, 233); /* define a borda, sua espessura, seu tipo, e sua cor, respectivamente */
     width: 60vw !important; /*Ajusta a largura*/
     bottom: 0; /*Distância da parte debaixo*/
     top: 0; /*Distância do topo*/
     left: 0; /*Distância da esquerda*/
     right: 0; /*Distância da direita*/
-    margin: auto;
+    margin: auto; /* margem automatica */
 }
 h5 {
     position: absolute; /*Posição absoluta (em relação ao elemento pai)*/
-    color: black;
+    color: black; /* cor da fonte */
 }
 #noticias {
-    margin: 1.3vw auto;
-    display: block;
+    margin: 1.3vw auto; /* margem (superior/inferior) e (direita/esquerda) respectivamente */
+    display: block; /* define o display como bloco */
     width: 60vw; /*Ajusta a largura*/
-    text-align: left;
-    font-size: 2vw;
+    text-align: left; /* alinha o texto no centro */
+    font-size: 2vw; /* tamanho da fonte */
 }
 hr {
     height: 0.1vw; /*Ajusta a altura*/
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0); /* cor de fundo */
     width: calc(60vw + 16px); /*Ajusta a largura*/
-    display: block;
-    margin: 1.3vw auto;
+    display: block; /* define o display como bloco */
+    margin: 1.3vw auto; /* margin (superior/inferior) e (direita/esquerda) respectivamente */
 }
 #descnot {
-    font-weight: bold;
-    font-size: 1.7vw;
-    text-align: center;
+    font-weight: bold; /* negrito */
+    font-size: 1.7vw; /* tamanho da fonte */
+    text-align: center; /* alinha o texto no centro */
 }
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* retira a decoração de texto */
+    color: black; /* cor da fonte */
 }
 /*um media que define as propriedades dos elementos quando em proporção de tela menor.*/
 @media screen and (max-width: 1640px) {
@@ -379,7 +379,7 @@ a {
     }
     #slide {
         height: 40vh; /*Ajusta a altura*/
-        background-size: 2%;
+        background-size: 2%;/* tamanho do fundo */
     }
 }
 iframe {
@@ -390,7 +390,7 @@ iframe {
     display: none; /*faz com que o elemento "suma"*/
 }
 .botao:hover,  #newsblack .botao:hover{
-    text-decoration: none;
-    color: rgb(194, 0, 0);
-    border-color: rgb(202, 0, 0);
+    text-decoration: none; /* retira as decorações de texto */
+    color: rgb(194, 0, 0); /* cor da fonte */
+    border-color: rgb(202, 0, 0); /* cor da borda */
 }
