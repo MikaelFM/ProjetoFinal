@@ -29,7 +29,6 @@ body::-webkit-scrollbar{
     height: 80%; /*Ajusta a altura*/
     max-height: 100%; /*Ajusta a altura máxima*/
     width: 60%; /*Ajusta a largura*/
-    margin: 0 auto;
 }
 #slider {
     background-size: cover;
@@ -129,19 +128,19 @@ nav {
     font-weight: bold;
     display: block;
     width: 70%; /*Ajusta a largura*/
-    font-family: "AwanZaman-Regular", sans-serif;
-    font-size: 2.3vw;
+    font-family: "AwanZaman-Regular", sans-serif;/* tipo da fonte */
+    font-size: 2.3vw; /* tamanho da fonte */
 }
 .newsspan {
-    font-family: "AwanZaman-Regular", sans-serif;
-    font-size: 1.5vw;
+    font-family: "AwanZaman-Regular", sans-serif; /* tipo da fonte */
+    font-size: 1.5vw; /* tamanho da fonte */
 }
 .desnews button {
-    font-family:  "AwanZaman-Regular", sans-serif;
-    font-size: 1.1vw;
+    font-family:  "AwanZaman-Regular", sans-serif; /* tipo da fonte */
+    font-size: 1.1vw; /* tamanho da fonte */
     width: 10vw; /*Ajusta a largura*/
-    background-color: white;
-    border: 1px solid rgb(192, 192, 192)
+    background-color: white; /* cor de fundo */
+    border: 1px solid rgb(192, 192, 192) /* define as bordas como brancas, com 1px de espessura e na cor cinza */
 }
 .whitefont {
     color: white
@@ -357,7 +356,7 @@ a {
     text-decoration: none;
     color: black;
 }
-
+/*um media que define as propriedades dos elementos quando em proporção de tela menor.*/
 @media screen and (max-width: 1640px) {
     #news, #newsblack, #slidernoticias, #blocodenoticias, #trailer, #form {
         width: 99%; /*Ajusta a largura*/
@@ -369,7 +368,7 @@ a {
         height: 70vh; /*Ajusta a altura*/
     }
     #noticias {
-        position: relative;
+        position: relative; /*define a posição como relativa*/
     }
 }
 @media screen and (max-width: 600px) {
@@ -380,14 +379,11 @@ a {
         height: 40vh; /*Ajusta a altura*/
         background-size: 2%;
     }
-    #noticias {
-        position: relative;
-    }
 }
 iframe {
-    border: 0;
+    border: 0; /*define a borda do iframe como 0*/
 }
 
 .correct{
-    display: none;
+    display: none; /*faz com que o elemento "suma"*/
 }

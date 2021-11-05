@@ -1,9 +1,11 @@
+/* define a variavel acessibilidade */
 var acessibilidade = ''
+/* a função persoagem. Quando o usuario clicar em uma das imagens pequenas dos personagens, ele muda o texto e a imagem para aquele respectivo personagem */
 function personagem(x) {
     const img = document.getElementById('img')
     const personage = document.getElementById('nomepersonagem')
     const desc = document.getElementById('descricao')
-    array = [
+    array = [ /* uma array com todas as info de cada personagem */
         {
             "nome": "CAPITÃO AMÉRICA",
             "texto": "Um Supersoldado no auge de força, resistência e destreza originárias de um soro experimental recebido durante a 2ª Guerra Mundial.",
@@ -43,6 +45,7 @@ function personagem(x) {
     personage.innerHTML = array[x].nome
     desc.innerHTML = array[x].texto
 }
+/* deixa as leras  dos elementos com tag 'p'  maiores se elas estiverem normais. Se estiverem pequenas, deixa as letras normais. É usada na acessibilidade */
 function grande(){
     var el = document.querySelectorAll('p')
     if (acessibilidade == 'pequeno'){
@@ -56,6 +59,7 @@ function grande(){
       }
       acessibilidade = 'grande'
     }
+    /* deixa as leras dos elementos com tag 'p' menores se elas estiverem normais. Se estiverem grandes, deixa as letras normais. É usada na acessibilidade */
   function pequeno(){
     var el = document.querySelectorAll('p')
       if (acessibilidade == 'grande'){
