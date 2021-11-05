@@ -1,5 +1,6 @@
 /* define a variavel acessibilidade */
 var acessibilidade = ''
+alert('Seja Bem-vindo! Se você estiver em um dispositivo com tela menor que 800px, arraste para o lado para ver os outros personagens!') /* transmite um alerta */
 /* a função persoagem. Quando o usuario clicar em uma das imagens pequenas dos personagens, ele muda o texto e a imagem para aquele respectivo personagem */
 function personagem(x) {
     const img = document.getElementById('img')

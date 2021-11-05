@@ -13,28 +13,28 @@ body {
 }
 /* traz a nav para camada mais da frente */
 nav {
-    z-index: 999; /*Coloca ele na camada 999*/
+    z-index: 999;
 }
 /* define as noticias com uma posição absoluta, define a largura, altura, cor de fundo, margem do topo e que ela não terá barra de rolagem */
 #noticias {
-    position: absolute; /*Posição com relação ao body*/
-    width: 99vw; /*Largura do cabeçalho*/
-    height: 50vw; /*Altura do elemento*/
-    background-color: #181818; /*Cor do fundo*/
-    margin-top: 15vh; /*Margem da parte de cima do elemento*/
-    overflow: hidden; /*Não permite a rolagem (scroll)*/
+    position: absolute;
+    width: 99vw;
+    height: 50vw;
+    background-color: #181818;
+    margin-top: 15vh;
+    overflow: hidden
 }
 /* define a posição da shape, a largura, a altura, a margem para ambos lados, a cor de fundo e a transição. */
 .shape {
-    top: 0; /*Distância do topo*/
-    bottom: 0; /*Distãncia da parte inferior da página*/
-    width: 8vw; /*Largura do elemento*/
-    height: 8vw; /*Altura do elemento*/
-    margin: 1vw; /*Margem de todos os lados*/
-    background: #ff0000; /*Cor de fundo*/
-    -webkit-transition: all .5s ease-out; /*Transição para suavizar movimentações*/
-    -moz-transition: all .5s ease-out; /*Transição para suavizar movimentações*/
-    transition: all .5s ease-out; /*Transição para suavizar movimentações*/
+    top: 0;
+    bottom: 0;
+    width: 8vw;
+    height: 8vw;
+    margin: 1vw;
+    background: #ff0000;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 /* define a forma desta classe. Deixa ela na forma que vemos no site. */
 .shape.square.to-bevel, .shape-menor.square.to-bevel {
@@ -43,137 +43,12 @@ nav {
 }
 /* centraliza este elemento, define sua cor de fundo, sua altura e largura. */
 #blocogrande {
-    margin: 0 auto; /*Margem do elemento*/
-    background-color: #090909; /*Cor de fundo*/
-    width: 70%; /*Largura do elemento*/
-    height: 20vw; /*Altura do elemento*/
+    margin: 0 auto;
+    background-color: #090909;
+    width: 70%;
+    height: 20vw;
 }
 #dir, #esq {
-    vertical-align: middle; /*Alinha no centro vertical do elemento*/
-    height: 90%; /*Altura de nosso elemento*/
-    color: white; /*Cor do texto*/
-    top: 0; /*Distância do topo*/
-    bottom: 0; /*Distância da parte debaixo da página*/
-    margin: 0; /*Margem de todos os lados*/
-}
-#icone:hover {
-    background-color: rgb(27, 27, 27); /*Cor de fundo*/
-}
-.shape-menor {
-    background-repeat: no-repeat; /*Imagem de fundo não repete*/
-    background-position: center; /*Posição da imagem de fundo (centro)*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
-    margin-left: 5%; /*Margem esquerda do elemento*/
-    position: relative; /*Posição relativa ao elemento pai*/
-    top: 50%; /*Distância do topo*/
-    transform: translateY(-50%); /*Movimentação do eixo Y*/
-    width: 90%; /*Largura do elemento
-    height: 90%; /*Altura do elemento*/
-    background: #000000; /*Cor de fundo*/
-    -webkit-transition: all .5s ease-out; /*Transição para suavizar movimentações*/
-    -moz-transition: all .5s ease-out; /*Transição para suavizar movimentações*/
-    transition: all .5s ease-out; /*Transição para suavizar movimentações*/
-}
-#title1 {
-    padding: 1.3vw 0; /*Padding do elemento*/
-    font-size: 2.5vw; /*Tamanho da fonte do elemento*/
-    text-align: center; /*Alinha o texto no centro do elemento*/
-    color: white; /*Cor do texto é branca*/
-    font-family: 'Lovelo', sans-serif; /*Possíveis fontes*/
-}
-#galeria {
-    background-image: url('../../img/personagens/texture.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    height: 30vw; /*Altura do elemento*/
-    width: 98.55%; /*Ajusta a largura*/
-    background-color: black; /*Cor do fundo*/
-    border: 0.5vw solid red; /*Configuração da borda*/
-    border-top: 0; /*Borda do topo*/
-    border-bottom: 0; /*Borda debaixo*/
-    margin:0 auto; /*Margem do elemento*/
-    width: 69%; /*Largura do elemento*/
-}
-#bloco{
-    float: center; /*Coloca o elemento no centro (flutuando)*/
-    margin: 0 auto; /*Margem do nosso elemento*/
-    width: 75%; /*Ajusta a largura*/ 
-    text-align: left; /*Alinha o texto a esquerda*/
-}
-
-#bloco li{
-    width: 12%; /*Ajusta a largura*/
-    height: 20vw; /*Altura do elemento*/
-    padding: 0.5vw; /*Padding do elemento*/
-    display: inline-block; /*Display em linha*/
-    text-decoration: none; /*Texto sem estilização*/
-    list-style: none; /*Tira o estilo padrão de listas*/
-    transition-duration: 3s; /*Diração da transição para 3 segundos*/
-}
-li[class="icon"] {
-    user-select: none; /*Não permite que o usuário selecione o elemento*/
-    width: 2%; /*Ajusta a largura*/
-}
-.icone {
-    color: white; /*Cor do texto é branca*/
-    font-size: 2vw; /*Tamanho da fonte*/
-}
-.material-icons {
-    display: unset; /*Adiciona um display fixo*/
-}
-#next, #before {
-    background-color: transparent; /*Tira cores de fundo*/
-    background-image: url('../../img/personagens/next.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    background-size: 35%; /*Tamanho da imagem do background*/
-    background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    margin: 0; /*Margem do elemento*/
-}
-#next:hover, #before:hover {
-    background-image: url('../../img/personagens/next_red.png'); /*Da um plano de fundo ao nosso elemento*/
-}
-#before {
-    transform: rotate(-180deg); /*Faz com que o elemento rode 180 graus*/
-}
-#desc {
-    position: relative; /*Posição relativa ao elemento pai*/
-    padding: 0 0 0 8%; /*Ajusta o padding de nosso elemento*/
-    width: 40%; /*Ajusta a largura*/
-    height: 100%; /*Altura do elemento*/
-    float: left; /*Coloca ele a esquerda do elemento pai*/
-}
-#img {
-    margin: 5% 0 25% 0; /*Margens do nosso elemento*/
-    height: 80%; /*Altura do elemento*/
-    position: relative; /*Posição relativa ao elemento pai*/
-    width: 40%; /*Ajusta a largura*/
-    float: right; /*Coloca ele a direita do elemento pai*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    background-position: center;
-}
-#desc h1 {
-    display: block; /*Adiciona um display fixo ao elemento*/
-    width: 100%; /*Ajusta a largura*/
-    margin-top: 40%; /*Margem da parte de cima do elemento*/
-    color: red; /*Cor do texto é vermelha*/
-    font-family: 'Lovelo', sans-serif; /*Possíveis fontes*/
-    font-size: 2.5vw; /*Tamanho da fonte*/
-    text-align: center; /*Alinhamento do texto ao centro*/
-    padding-bottom: 1vw; /*Padding da parte debaixo*/
-}
-#desc p {
-    display: block; /*Adiciona um display fixo ao elemento*/
-    width: 100%; /*Ajusta a largura*/
-    color: white; /*Cor do texto é branca*/
-    text-align: center; /*Alinhamento do texto ao centro*/
-    font-family: 'Open sans'; /*Possíveis fontes*/
-    font-size: 1.2vw; /*Tamanho da fonte*/
-}
-
-#personagem0{
-    background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
     vertical-align: middle; /* centraliza verticalmente */
     height: 90%; /* altura */
     color: white; /* cor da fonte */
@@ -224,7 +99,6 @@ li[class="icon"] {
     width: 75%; /*define a largura do elemento*/ 
     text-align: left; /*alinha o texto para a esquerda*/
 }
-
 #bloco li{
     width: 12%; /*define a largura do elemento*/
     height: 20vw; /*define a altura do elemento*/
@@ -259,12 +133,12 @@ li[class="icon"] {
 #before {
     transform: rotate(-180deg) /* gira o elemtno 180 graus no sentido anti-horario */
 }
-#desc {
-    position: relative; /* define a posição como relativa */
+.desc {
+    position: relative; /* define a posição como relativa ao bloco pai */
     padding: 0 0 0 8%; /* define a margem interna superior, da direita, inferior e da esquerda, respectivamente */
     width: 40%; /* largura */
     height: 100%; /* altura */
-    float: left; /* faz com que o elemento flutue na esquerda */
+    float: left; /* faz o elemento flutuar na esquerda */
 }
 #img {
     margin: 5% 0 25% 0; /* define a margem superior, da direita, inferior e da esquerda, respectivamente*/
@@ -275,23 +149,23 @@ li[class="icon"] {
     background-repeat: no-repeat; /*não permite a repetição do fundo*/
     background-position: center;/*define a posição do fundo*/
 }
-#desc h1 {
+.desc h1 {
     display: block; /* define o display como bloco */
     width: 100%; /* largura */
-    margin-top: 40%; /*  margem do topo */
+    margin-top: 40%; /* margem em relação ao topo */
     color: red; /* cor da fonte */
-    font-family: 'Lovelo', sans-serif; /* tipo da fonte */
+    font-family: 'Lovelo', sans-serif; /* tipo de fonte */
     font-size: 2.5vw; /* tamanho da fonte */
-    text-align: center; /* alinha o texto no centro */
-    padding-bottom: 1vw; /* margem interna */
+    text-align: center; /* centraliza o texto */
+    padding-bottom: 1vw; /* margem interna inferior */
 }
-#desc p {
-    display: block; /*define o display como bloco*/
-    width: 100%; /*define a largura do elemento*/
-    color: white; /*define a cor da letra*/
-    text-align: center; /*alinha o texto para o centro*/
-    font-family: 'Open sans'; /*define a fonte*/
-    font-size: 1.2vw; /*define o tamanho da fonte*/
+.desc p {
+    display: block; /* define o display como bloco */
+    width: 100%; /* largura */
+    color: white; /* cor da fonte */
+    text-align: center; /* centraliza o texto */
+    font-family: 'Open sans'; /* tipo de fonte */
+    font-size: 1.2vw; /* tamanho da fonte */
 }
 
 #personagem0{
@@ -302,143 +176,96 @@ li[class="icon"] {
 }
 /* esses elementos não foram comentados, pois tem as mesmas propriedades do elemento #personagem0 */
 #personagem1{
-    background-image: url('../../img/personagens/wallpaper/pthor.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
-}
-#personagem2{
-    background-image: url('../../img/personagens/wallpaper/pha.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
-}
-#personagem3{
-    background-image: url('../../img/personagens/wallpaper/phf.png'); /*Da um plano de fundo ao nosso elemento*/
+    background-image: url('../../img/personagens/wallpaper/pthor.png');
     background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
+}
+#personagem2{
+    background-image: url('../../img/personagens/wallpaper/pha.png');
+    background-repeat: no-repeat;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover;
+}
+#personagem3{
+    background-image: url('../../img/personagens/wallpaper/phf.png');
+    background-repeat: no-repeat;
+    background-position: center; /*Posiciona a imagem de fundo ao centro*/
+    background-size: cover;
 }
 #personagem4{
-    background-image: url('../../img/personagens/wallpaper/ppantera.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/ppantera.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 #personagem5{
-    background-image: url('../../img/personagens/wallpaper/pdrestranho.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
-    background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-image: url('../../img/personagens/wallpaper/pdrestranho.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 #personagem6{
-    background-image: url('../../img/personagens/wallpaper/phulk.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/phulk.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 #personagem7{
-    background-image: url('../../img/personagens/wallpaper/pviuva.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/pviuva.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 .personagem0 {
-    background-image: url('../../img/personagens/wallpaper/pcapitaoamerica2.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
     background-image: url('../../img/personagens/wallpaper/pca.png');
     background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
 }
 .personagem1 {
-    background-image: url('../../img/personagens/wallpaper/pthor.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/pthor.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/ 
+    background-size: cover;
 }
 .personagem2 {
-    background-image: url('../../img/personagens/wallpaper/pha.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/pha.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 .personagem3 {
-    background-image: url('../../img/personagens/wallpaper/phf.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/phf.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 .personagem4 {
-    background-image: url('../../img/personagens/wallpaper/ppantera.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/ppantera.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 .personagem5 {
-    background-image: url('../../img/personagens/wallpaper/pdrestranho.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/pdrestranho.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/ 
+    background-size: cover;
 }
 .personagem6 {
-    background-image: url('../../img/personagens/wallpaper/phulk.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/phulk.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
 }
 .personagem7 {
-    background-image: url('../../img/personagens/wallpaper/pviuva.png'); /*Da um plano de fundo ao nosso elemento*/
-    background-repeat: no-repeat; /*Imagem do background não repete*/
+    background-image: url('../../img/personagens/wallpaper/pviuva.png');
+    background-repeat: no-repeat;
     background-position: center; /*Posiciona a imagem de fundo ao centro*/
-    background-size: cover; /*A imagem de fundo cobre o elemento*/
+    background-size: cover;
+    background-position: center;
 }
 #acessibilidade {
-    position: absolute; /*Posição relativa ao body*/
-    z-index: 1000; /*Coloca ele na camada 1000*/
-    margin-top: 45vh; /*Margem do topo*/
-    right: 0; /*Distância da direita*/
-}
-#acessibilidade ul {
-    position: fixed; /*Posição fixada na página, não move com o scroll*/
-    right: 0vw;	/*Distância da direita*/
-    padding: 0; /*Padding do nosso elemento*/
-    margin: 0; /*Margem do nosso elemento*/
-    overflow: hidden; /*Não permite o scroll*/
-}
-#acessibilidade ul li{
-    background-color: white; /*Cor de fundo*/
-    height: 5vh; /*Altura do elemento*/
-    width: 4vw; /*Largura do elemento*/
-    padding: 0.2vw 0.2vw; /*Padding do elemento*/
-    width: 100%; /*Largura do elemento*/
-    display: inline-block; /*Deixa a organização do elemento em linha*/
-    font-size: 1.5vw; /*Tamanho da fonte*/
-    text-align: center; /*Alinhamento do texto no centro*/
-    font-family: 'Roboto', sans-serif; /*Possíveis fontes*/
-}
-#grande {
-    border-top-left-radius: 15%; /*Arredondamento da borda de cima esquerda*/
-    border-bottom: 0.1px solid black; /*Tamanho da borda debaixo*/
-}
-#pequeno {
-    border-bottom-left-radius: 15%; /*Arredondamento da borda de baixo a esquerda*/
-}
-#menu ul{
-    width: 100%; /*Largura do elemento*/
-    margin-left: 0; /*Margem esquerda*/
-    padding-left: 0; /*Padding esquerdo do nosso elemento*/
-}
-#menu ul li{
-    width: 100%; /*Largura do elemento*/
-    margin-left: 0; /*Margem esquerda*/
-    padding-left: 0; /*Padding esquerdo do nosso elemento*/
-}
-@media screen and (max-width: 1344px) {
-    #blocogrande {
-        width: 100vw; /*Largura do elemento*/
-    }
-    #galeria {
-    width: 100vw; /*Largura do elemento*/
     position: absolute; /* define a posicao como absoluta */
     z-index: 1000; /* traz o elemento para frente */
     margin-top: 45vh; /* define a margem do topo */
@@ -479,13 +306,12 @@ li[class="icon"] {
     margin-left: 0; /* margem esquerda externa */
     padding-left: 0; /* margem interna esquerda */
 }
-/* esse é o slider que aparece em telas menores */
 #notslider {
     border: 1vh solid red; /* define a borda com 1vh de espessura, e da cor vermelha */
     border-top: none; /* retira a borda do toppo */
     border-bottom: none; /* retira a borda de baixo */
     padding-top: 15vw; /* define a margem interna */
-    height: 85vh; /* define a altura do elemento */
+    height: 850vh; /* define a altura do elemento */
     background-color: rgb(0, 0, 0); /* define a cor de fundo */
     display: none; /* faz com que o elemento suma */
 }
@@ -508,7 +334,6 @@ li[class="icon"] {
         display: none; /* faz com que o elemento suma */
     }
     #bloco {
-        width: 65%; /*Largura do elemento*/
         width: 65%;   /* define a largura do elemento */
     }
     #galeria {
@@ -521,16 +346,16 @@ li[class="icon"] {
         margin: 0 auto; /* define a margem interna */
         padding-top: 15vw; /* define a margem externa */
     }
-    #desc {
+    .desc {
         width: 100%; /*define a largura do elemento*/
         padding: 0; /*define o tamanho da borda inferior*/
         height: 35vh; /*defien a altura do elemento*/
     }
-    #desc h1 {
+    .desc h1 {
         font-size: 4vh; /*define o tamanho da fonte*/
         margin-top: 5%; /*define a margem do topo*/
     }
-    #desc p {
+    .desc p {
         font-size: 2.5vh; /* tamanho da fonte */
         width: 85%; /*define a largura do elemento*/
         margin: 0 auto; /* centraliza o elemento */
@@ -541,7 +366,7 @@ li[class="icon"] {
 }
 @media screen and (max-width: 500px) {/* a partir de resoluções menores que 50px essas propriedades (abaixo) serão aplica */
     #bloco {
-        width: 55%; /*Largura do elemento*/
-    }   
-}
+        width: 55%;  /*define a largura do elemento*/
+    }
+    
 }
